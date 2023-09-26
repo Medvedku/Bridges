@@ -1,4 +1,4 @@
-Name,Bridge ID,Recon,Condition,Length,Geolocation,Material
+Name,Bridge ID,Reconstruction,Condition,Length,Geolocation,Material
 Most cez záchytný kanál pred obcou Záhor,M7170,TRUE,7,,https://maps.app.goo.gl/DviwreT9Y1Ydk9FM6,precast prestressed concrete
 Most nadcestie trať ČSD Košice - Žilina,M1910,FALSE,7,"37,5",https://maps.app.goo.gl/zcnmgKNodb9PVgwy9,precast prestressed concrete
 Most cez potok Čierna Voda za obcou Stretava,M4356,TRUE,7,,https://maps.app.goo.gl/MbAobZe4kYBsZ23E8,precast prestressed concrete
@@ -51,4 +51,4 @@ Most cez záchytný kanál pred obcou Kristy,M5753,FALSE,6,"36,18",https://maps.
 Most cez Sobranecký potok pred obcou Ostrov,M2906,FALSE,6,15,https://maps.app.goo.gl/bKpco2ZP7CB54wJT9,precast prestressed concrete
 Most cez potok Udoč pred obcou Čičarovce,M4923,FALSE,6,"12,37",https://maps.app.goo.gl/4CZssRs9StfDwuGA9,precast prestressed concrete
 Most cez rieku Laborec za obcou Stretavka,M1770,FALSE,6,"55,88",https://maps.app.goo.gl/aB7NYfzhSti8WXSc6,precast prestressed concrete
-"zdroj: https://www.cdb.sk/files/documents/cestna-databanka/vystupy-cdb/2023/csv/sr_co_mostydc_reportpk_2023-01-01.csv, vlastná analýza",,,,,,
+"https://www.cdb.sk/files/documents/cestna-databanka/vystupy-cdb/2023/csv/sr_co_mostydc_reportpk_2023-01-01.csv, vlastná analýza",zdroj,,,,,
