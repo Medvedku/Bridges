@@ -1,0 +1,96 @@
+    Šírky mostov
+"M6601": 8.00,
+"M1352": 10.0,
+"M5485": 14.4,
+"M3102": 5.00,
+"M1661": 6.80,
+"M2186": 8.80,
+"M6863": 7.90,
+"M1319": 6.49,
+"M6987": 11.5,
+"M5196": 10.8,
+"M3616": 10.3,
+"M6312": 20.9,
+"M4142": 15.3,
+"M480" : 9.50,
+"M6128": 8.50,
+"M2665": 9.00,
+"M1194": 8.00,
+"M4334": 10.0,
+"M8692": 8.50
+
+
+    Dĺžky mostov
+"M6312": 10.0,
+"M5485": 10.7,
+"M4353": 420.1,
+"M5196": 18.5,
+"M3616": 19.5,
+"M1352": 350.4,
+"M2665": 11.0,
+"M6128": 630.0,
+"M1194": 55.1,
+"M1661": 67.3
+
+
+    Kraje
+'Bratislava': 1
+'Trnava': 2
+'Trenčín': 3
+'Nitra': 4
+'Žilina': 5
+'Banská Bystrica': 6
+'Prešov': 7
+'Košice': 8
+
+
+    Trieda PK
+"cesta III. triedy": 4
+"cesta I. triedy": 2
+"cesta II. triedy": 3
+"diaľnica": 1
+
+    Mosty z rokov 1800
+"M7405": 2005,
+"M6565": 2005,
+"M6585": 2005,
+"M7739": 2005,
+"M361": 2005,
+"M3370": 2005,
+"M5362": 2005,
+"M1660": 2005,
+"M6925": 1950
+
+
+    Druh konštrukcie
+dosková        1,
+trámová        2,
+klenbová       3,
+rámová         4,
+oblúková       5,
+iná            6,
+priehradová    7
+
+
+    Material
+monolitický železobetón:          1,
+prefabrikovaný železobetón:       2,
+prefabrikovaný predpätý betón:    3,
+oceľ -  plnostenná:               4,
+monolitický prostý betón:         5,
+monolitický predpätý betón:       6,
+kameň:                            7,
+tehla:                            8,
+oceľobetón:                       9,
+iný materiál:                     10,
+oceľ -  priehradová:              11,
+spriahnutá betón-betón:           12,
+spriahnutá oceľ-betón:            13
+
+
+ID      Material                        Druh konštrukcie
+M361    prefabrikovaný predpätý betón   dosková
+M1661   monolitický predpätý betón      trámová
+M1767   monolitický železobetón         dosková
+M6599   prefabrikovaný predpätý betón   dosková
+M4334   monolitický predpätý betón      trámová
