@@ -1,0 +1,72 @@
+Iteration 800:
+Percentage of correct predictions for data_eq: 60.45%
+Percentage of correct predictions for data_gt: 66.26%
+
+Iteration 850:
+Percentage of correct predictions for data_eq: 68.62%
+Percentage of correct predictions for data_gt: 65.16%
+
+Iteration 900:
+Percentage of correct predictions for data_eq: 55.05%
+Percentage of correct predictions for data_gt: 73.51%
+
+Iteration 950:
+Percentage of correct predictions for data_eq: 61.83%
+Percentage of correct predictions for data_gt: 69.49%
+
+Iteration 1000:
+Percentage of correct predictions for data_eq: 60.44%
+Percentage of correct predictions for data_gt: 71.3%
+
+Iteration 1050:
+Percentage of correct predictions for data_eq: 63.06%
+Percentage of correct predictions for data_gt: 68.08%
+
+Iteration 1100:
+Percentage of correct predictions for data_eq: 69.48%
+Percentage of correct predictions for data_gt: 64.75%
+
+Iteration 1150:
+Percentage of correct predictions for data_eq: 68.91%
+Percentage of correct predictions for data_gt: 64.75%
+
+Iteration 1200:
+Percentage of correct predictions for data_eq: 70.79%
+Percentage of correct predictions for data_gt: 64.05%
+
+Iteration 800:
+Percentage of correct predictions for data_eq: 70.16%
+Percentage of correct predictions for data_gt: 58.21%
+
+Iteration 850:
+Percentage of correct predictions for data_eq: 67.84%
+Percentage of correct predictions for data_gt: 64.15%
+
+Iteration 900:
+Percentage of correct predictions for data_eq: 60.73%
+Percentage of correct predictions for data_gt: 65.76%
+
+Iteration 950:
+Percentage of correct predictions for data_eq: 66.56%
+Percentage of correct predictions for data_gt: 67.37%
+
+Iteration 1000:
+Percentage of correct predictions for data_eq: 72.4%
+Percentage of correct predictions for data_gt: 57.4%
+
+Iteration 1050:
+Percentage of correct predictions for data_eq: 69.79%
+Percentage of correct predictions for data_gt: 65.86%
+
+Iteration 1100:
+Percentage of correct predictions for data_eq: 68.67%
+Percentage of correct predictions for data_gt: 67.27%
+
+Iteration 1150:
+Percentage of correct predictions for data_eq: 71.79%
+Percentage of correct predictions for data_gt: 61.93%
+
+Iteration 1200:
+Percentage of correct predictions for data_eq: 67.23%
+Percentage of correct predictions for data_gt: 64.05%
+
