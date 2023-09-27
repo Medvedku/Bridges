@@ -94,3 +94,26 @@ M1661   monolitický predpätý betón      trámová
 M1767   monolitický železobetón         dosková
 M6599   prefabrikovaný predpätý betón   dosková
 M4334   monolitický predpätý betón      trámová
+
+
+"ID mosta", - ID of bridge (not included in learning model)
+'n_2012', - condition in given year (integer from 1 to 7)
+'n_2013', - condition in given year (integer from 1 to 7)
+'n_2014', - condition in given year (integer from 1 to 7)
+'n_2015', - condition in given year (integer from 1 to 7)
+'n_2016', - condition in given year (integer from 1 to 7)
+'n_2017', - condition in given year (integer from 1 to 7)
+'n_2018', - condition in given year (integer from 1 to 7)
+'n_2019', - condition in given year (integer from 1 to 7)
+'n_2020', - condition in given year (integer from 1 to 7)
+'n_2021', - condition in given year (integer from 1 to 7)
+'n_2022', - condition in given year (integer from 1 to 7)
+'n_2023', - condition in given year (integer from 1 to 7)
+'n_length', - length of the structure (float form 3.5 up to 1035.00)
+'n_width', - width of the structure (float from 1.95 up to 37.58
+'n_region', - region where bridge is built (integer from 1 to 8)
+'n_class', - type of road where on which is bridge built on (integer from 1 to 4)
+'n_years', - integer representing year (from 1756 to 2012)
+'n_material', - material of structure (integer from 1 to 13)
+'n_type', - type of structure (slab bridge, beam bridge etc, integer from 0 to 8)
+'b_change' - integer (1 - changed condition, 0 - without change) (not included in learning model)
