@@ -183,7 +183,7 @@ def pickley(database:str, collection:str, t_from=0, t_end=3e9, file_name:str="da
     pickle              returns pickled database
     """
 
-    mongo_URI = "mongodb+srv://node:prokopcakovamama@xerxes.57jmr.mongodb.net/alfa?retryWrites=true&w=majority"
+    mongo_URI = "mongodb+srv://monitor:kundrovejmamka@xerxes.57jmr.mongodb.net/alfa?retryWrites=true&w=majority"
     cluster = MongoClient(mongo_URI)
 
     db = cluster[database]
