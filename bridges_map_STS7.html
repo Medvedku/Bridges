@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5af5b570997e07a64e23b46c8df07b8c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5af5b570997e07a64e23b46c8df07b8c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5af5b570997e07a64e23b46c8df07b8c = L.map(
+                "map_5af5b570997e07a64e23b46c8df07b8c",
+                {
+                    center: [48.724, 19.561],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f9c70cb8433dcbb2325f9b7546f65464 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+            var marker_4b01551da60b848189937b8e5d1ce8b2 = L.marker(
+                [48.39305116, 17.019896533],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_1890c9d854efdb0229065e0a63562e08 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_4b01551da60b848189937b8e5d1ce8b2.setIcon(custom_icon_1890c9d854efdb0229065e0a63562e08);
+        
+    
+        var popup_dcf1533444c449e2ffadd30072f85414 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b96f866a74df741a6b4776e5af1de2bf = $(`<div id="html_b96f866a74df741a6b4776e5af1de2bf" style="width: 100.0%; height: 100.0%;">     <h4>ID: M5138</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>02_020 Most cez potok Hlavina</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1934 (pred 89 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Malacky</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>6.0 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_dcf1533444c449e2ffadd30072f85414.setContent(html_b96f866a74df741a6b4776e5af1de2bf);
+            
+        
+
+        marker_4b01551da60b848189937b8e5d1ce8b2.bindPopup(popup_dcf1533444c449e2ffadd30072f85414)
+        ;
+
+        
+    
+    
+            var marker_1b8610287242ff53650563acafa20f7a = L.marker(
+                [47.79702873, 17.654940219],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_fc1843936cfc6654038d3e0de383530f = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_1b8610287242ff53650563acafa20f7a.setIcon(custom_icon_fc1843936cfc6654038d3e0de383530f);
+        
+    
+        var popup_ae20c8fa1aa599b8ba0e53aa659c54cb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_075371a39f99af4f4cfe9afc6b1292b3 = $(`<div id="html_075371a39f99af4f4cfe9afc6b1292b3" style="width: 100.0%; height: 100.0%;">     <h4>ID: M3740</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>13_006 Most cez rameno Dunaja za obcou Medveďov</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1962 (pred 61 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Dunajská Streda</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>98.55 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>oceľ -  plnostenná</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_ae20c8fa1aa599b8ba0e53aa659c54cb.setContent(html_075371a39f99af4f4cfe9afc6b1292b3);
+            
+        
+
+        marker_1b8610287242ff53650563acafa20f7a.bindPopup(popup_ae20c8fa1aa599b8ba0e53aa659c54cb)
+        ;
+
+        
+    
+    
+            var marker_37be1f271b7f6db65708d78b26ad2a24 = L.marker(
+                [49.14794609, 21.656187838],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_fc4e6a85723ec06ceaa70084f83ea7dc = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_37be1f271b7f6db65708d78b26ad2a24.setIcon(custom_icon_fc4e6a85723ec06ceaa70084f83ea7dc);
+        
+    
+        var popup_b2b6e9b0fd9d06892b521991d1a55f34 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5afe1f7eb62cfda0923c603d4ac438cc = $(`<div id="html_5afe1f7eb62cfda0923c603d4ac438cc" style="width: 100.0%; height: 100.0%;">     <h4>ID: M2950</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>15_012 Most cez potok Brusníčka pred obcou Breznica</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1960 (pred 63 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Stropkov</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>15.97 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_b2b6e9b0fd9d06892b521991d1a55f34.setContent(html_5afe1f7eb62cfda0923c603d4ac438cc);
+            
+        
+
+        marker_37be1f271b7f6db65708d78b26ad2a24.bindPopup(popup_b2b6e9b0fd9d06892b521991d1a55f34)
+        ;
+
+        
+    
+    
+            var marker_87bf2bedbf54060a550a3c4012fac955 = L.marker(
+                [49.16130484, 21.66144453],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_3b99065a9d22afc67b57206e91187c0f = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_87bf2bedbf54060a550a3c4012fac955.setIcon(custom_icon_3b99065a9d22afc67b57206e91187c0f);
+        
+    
+        var popup_8ae9ba339a0b03f1129259a727199ff5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_57c197069738fb88b6b6c106a5eac03a = $(`<div id="html_57c197069738fb88b6b6c106a5eac03a" style="width: 100.0%; height: 100.0%;">     <h4>ID: M6548</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>15_013 Most cez potok Vojtovce v obci Breznica</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1960 (pred 63 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Stropkov</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>13.2 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_8ae9ba339a0b03f1129259a727199ff5.setContent(html_57c197069738fb88b6b6c106a5eac03a);
+            
+        
+
+        marker_87bf2bedbf54060a550a3c4012fac955.bindPopup(popup_8ae9ba339a0b03f1129259a727199ff5)
+        ;
+
+        
+    
+    
+            var marker_77e4d87726bc9e069fd6d5d7443bdb4e = L.marker(
+                [49.379726355, 18.433049241],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_bdf9efa8abbbd43be4ab4886af7e869f = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_77e4d87726bc9e069fd6d5d7443bdb4e.setIcon(custom_icon_bdf9efa8abbbd43be4ab4886af7e869f);
+        
+    
+        var popup_718a48ac0646f09300640d05869540fe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0e169dfda9227e959492ee73bd841d86 = $(`<div id="html_0e169dfda9227e959492ee73bd841d86" style="width: 100.0%; height: 100.0%;">     <h4>ID: M1576</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>10_238 Most cez potok Trojačka pri osade Trojačka</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1928 (pred 95 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Čadca</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>4.0 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_718a48ac0646f09300640d05869540fe.setContent(html_0e169dfda9227e959492ee73bd841d86);
+            
+        
+
+        marker_77e4d87726bc9e069fd6d5d7443bdb4e.bindPopup(popup_718a48ac0646f09300640d05869540fe)
+        ;
+
+        
+    
+    
+            var marker_c5795ac26e077272331a6d61c28e88f7 = L.marker(
+                [49.0496897, 20.308553768],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_93951303a1b5abf8fe492f1cd60d18ad = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_c5795ac26e077272331a6d61c28e88f7.setIcon(custom_icon_93951303a1b5abf8fe492f1cd60d18ad);
+        
+    
+        var popup_772a338cf77cca794f139615fb854028 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b80d695d7303fd73bd2c7155152cd1ce = $(`<div id="html_b80d695d7303fd73bd2c7155152cd1ce" style="width: 100.0%; height: 100.0%;">     <h4>ID: M4815</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>18_390 Most cez železničnú trať, k.ú. Poprad</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1968 (pred 55 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Poprad</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>116.8 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_772a338cf77cca794f139615fb854028.setContent(html_b80d695d7303fd73bd2c7155152cd1ce);
+            
+        
+
+        marker_c5795ac26e077272331a6d61c28e88f7.bindPopup(popup_772a338cf77cca794f139615fb854028)
+        ;
+
+        
+    
+    
+            var marker_ca5a937746b592a7421def4479c17dc0 = L.marker(
+                [48.904759659, 21.632811892],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_62874b6d6e5da24cedb03c13e713afe1 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_ca5a937746b592a7421def4479c17dc0.setIcon(custom_icon_62874b6d6e5da24cedb03c13e713afe1);
+        
+    
+        var popup_01ca2b4e211222ef8951718650c44b81 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_68836a5f446aba3ab4db2f6735b251b7 = $(`<div id="html_68836a5f446aba3ab4db2f6735b251b7" style="width: 100.0%; height: 100.0%;">     <h4>ID: M6749</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>18_481 Most cez miestny potok v obci Čaklov</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1928 (pred 95 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Vranov nad Topľou</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>5.7 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_01ca2b4e211222ef8951718650c44b81.setContent(html_68836a5f446aba3ab4db2f6735b251b7);
+            
+        
+
+        marker_ca5a937746b592a7421def4479c17dc0.bindPopup(popup_01ca2b4e211222ef8951718650c44b81)
+        ;
+
+        
+    
+    
+            var marker_1808e262b12d0d1ac0f04c9bfa53d7a6 = L.marker(
+                [48.81465, 19.09968],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_4a0b8920bfaf17df9a101b85673b488a = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_1808e262b12d0d1ac0f04c9bfa53d7a6.setIcon(custom_icon_4a0b8920bfaf17df9a101b85673b488a);
+        
+    
+        var popup_659906a5465a87157492c8f75d2ec71e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bfeee88aa0526603a3cd93addad7da7e = $(`<div id="html_bfeee88aa0526603a3cd93addad7da7e" style="width: 100.0%; height: 100.0%;">     <h4>ID: M6077</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>59_020 Most cez Starohorský potok v obci Polkanová</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1966 (pred 57 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Banská Bystrica</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>13.25 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_659906a5465a87157492c8f75d2ec71e.setContent(html_bfeee88aa0526603a3cd93addad7da7e);
+            
+        
+
+        marker_1808e262b12d0d1ac0f04c9bfa53d7a6.bindPopup(popup_659906a5465a87157492c8f75d2ec71e)
+        ;
+
+        
+    
+    
+            var marker_b17d548200d6ae3a9b8121c8a1f93582 = L.marker(
+                [48.847926346, 19.120993298],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_baeb904cc715cc57da32b585a1456aa8 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_b17d548200d6ae3a9b8121c8a1f93582.setIcon(custom_icon_baeb904cc715cc57da32b585a1456aa8);
+        
+    
+        var popup_aa9c8652278ef5d73659b67fa76eafa6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5f2d2033948e4db0bcce8bb2bc4a2143 = $(`<div id="html_5f2d2033948e4db0bcce8bb2bc4a2143" style="width: 100.0%; height: 100.0%;">     <h4>ID: M1348</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>59_027 Most cez Starohorský potok - Flosov Most, k.ú. Donovaly</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1959 (pred 64 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Banská Bystrica</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>6.0 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_aa9c8652278ef5d73659b67fa76eafa6.setContent(html_5f2d2033948e4db0bcce8bb2bc4a2143);
+            
+        
+
+        marker_b17d548200d6ae3a9b8121c8a1f93582.bindPopup(popup_aa9c8652278ef5d73659b67fa76eafa6)
+        ;
+
+        
+    
+    
+            var marker_2806dab51eab91546e3b105d5be55ef8 = L.marker(
+                [48.99947047, 19.288572217],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_21ea5309183051934bfbeeb62923284a = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_2806dab51eab91546e3b105d5be55ef8.setIcon(custom_icon_21ea5309183051934bfbeeb62923284a);
+        
+    
+        var popup_d59228c6f6e8e808cc430b9dfe280c16 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_599defe32a076bae0a51ee44bc00a43d = $(`<div id="html_599defe32a076bae0a51ee44bc00a43d" style="width: 100.0%; height: 100.0%;">     <h4>ID: M5373</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>59_057 Most cez rieku Revúca, k.ú. Ružomberok</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1974 (pred 49 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Ružomberok</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>20.0 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_d59228c6f6e8e808cc430b9dfe280c16.setContent(html_599defe32a076bae0a51ee44bc00a43d);
+            
+        
+
+        marker_2806dab51eab91546e3b105d5be55ef8.bindPopup(popup_d59228c6f6e8e808cc430b9dfe280c16)
+        ;
+
+        
+    
+    
+            var marker_509933d679d4db02d191149382e172b2 = L.marker(
+                [49.196973589, 18.540328694],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_13705d34134c5b31b29115e679632b77 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_509933d679d4db02d191149382e172b2.setIcon(custom_icon_13705d34134c5b31b29115e679632b77);
+        
+    
+        var popup_c06bb906f16fc37649f80bbd0f47b72f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_54555a98ab776cca59d91953b9db9642 = $(`<div id="html_54555a98ab776cca59d91953b9db9642" style="width: 100.0%; height: 100.0%;">     <h4>ID: M3054</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>61_103 Most cez potok Hradné pri obci Predmier</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1967 (pred 56 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Bytča</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>14.27 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_c06bb906f16fc37649f80bbd0f47b72f.setContent(html_54555a98ab776cca59d91953b9db9642);
+            
+        
+
+        marker_509933d679d4db02d191149382e172b2.bindPopup(popup_c06bb906f16fc37649f80bbd0f47b72f)
+        ;
+
+        
+    
+    
+            var marker_88e9846f7450f0bdfd17ad92eb6b58d4 = L.marker(
+                [48.282674985, 17.728370438],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_d7356a23d140c259c53516a0506d5d36 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_88e9846f7450f0bdfd17ad92eb6b58d4.setIcon(custom_icon_d7356a23d140c259c53516a0506d5d36);
+        
+    
+        var popup_e060fb9bdf7efc50132633139a3b52db = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8e098ce593a6d6c6f65ab0f11e88522b = $(`<div id="html_8e098ce593a6d6c6f65ab0f11e88522b" style="width: 100.0%; height: 100.0%;">     <h4>ID: M2437</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>62_013 Nadjazd nad žel. traťou Galanta-Leopoldov v Seredi</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1950 (pred 73 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Galanta</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>39.75 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_e060fb9bdf7efc50132633139a3b52db.setContent(html_8e098ce593a6d6c6f65ab0f11e88522b);
+            
+        
+
+        marker_88e9846f7450f0bdfd17ad92eb6b58d4.bindPopup(popup_e060fb9bdf7efc50132633139a3b52db)
+        ;
+
+        
+    
+    
+            var marker_948969d7742b92c8b5ecfc0b2ccf7c98 = L.marker(
+                [48.676146249, 18.519046771],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_c27c04fb27b62ac0e6d46d4da738f37f = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_948969d7742b92c8b5ecfc0b2ccf7c98.setIcon(custom_icon_c27c04fb27b62ac0e6d46d4da738f37f);
+        
+    
+        var popup_b1dd97656e2b482995bdedc78430d36d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9bed3f69a56f809fbaa9e7d060ae344a = $(`<div id="html_9bed3f69a56f809fbaa9e7d060ae344a" style="width: 100.0%; height: 100.0%;">     <h4>ID: M6900</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>64_059 Most cez zrážkový potok, k.ú. Zemianske Kostoľany</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1937 (pred 86 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Prievidza</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>2.3 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_b1dd97656e2b482995bdedc78430d36d.setContent(html_9bed3f69a56f809fbaa9e7d060ae344a);
+            
+        
+
+        marker_948969d7742b92c8b5ecfc0b2ccf7c98.bindPopup(popup_b1dd97656e2b482995bdedc78430d36d)
+        ;
+
+        
+    
+    
+            var marker_a4be1af8b35fa9356b18ba517f861802 = L.marker(
+                [49.157509913, 18.723072885],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_78369e754b112bc254ecb3a23b53614d = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_a4be1af8b35fa9356b18ba517f861802.setIcon(custom_icon_78369e754b112bc254ecb3a23b53614d);
+        
+    
+        var popup_31709dc4d74ced0eb7ccc867da79cb14 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1169eddd5a7073c6ebaab02f0c36fe46 = $(`<div id="html_1169eddd5a7073c6ebaab02f0c36fe46" style="width: 100.0%; height: 100.0%;">     <h4>ID: M1704</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>64_107 Most cez Rajčianku v obci Porúbka</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1964 (pred 59 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Žilina</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>29.3 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_31709dc4d74ced0eb7ccc867da79cb14.setContent(html_1169eddd5a7073c6ebaab02f0c36fe46);
+            
+        
+
+        marker_a4be1af8b35fa9356b18ba517f861802.bindPopup(popup_31709dc4d74ced0eb7ccc867da79cb14)
+        ;
+
+        
+    
+    
+            var marker_b510423d15a673d727975e08fb095dee = L.marker(
+                [48.85689904, 20.21219052],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_742cb4c5fc8a6ebd9ad9e48b7f9a6301 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_b510423d15a673d727975e08fb095dee.setIcon(custom_icon_742cb4c5fc8a6ebd9ad9e48b7f9a6301);
+        
+    
+        var popup_006cdffe2d46fd63d112fd9060c95f00 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_51354bb37eedc9e44b71aecf99833aac = $(`<div id="html_51354bb37eedc9e44b71aecf99833aac" style="width: 100.0%; height: 100.0%;">     <h4>ID: M4633</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>66-157 Most cez rieku Hron za obcou Švermovo</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1963 (pred 60 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Brezno</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>3.4 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_006cdffe2d46fd63d112fd9060c95f00.setContent(html_51354bb37eedc9e44b71aecf99833aac);
+            
+        
+
+        marker_b510423d15a673d727975e08fb095dee.bindPopup(popup_006cdffe2d46fd63d112fd9060c95f00)
+        ;
+
+        
+    
+    
+            var marker_e6949eb07bf8c356ba8ae464ac41d58c = L.marker(
+                [48.71088321, 20.475868676],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_e942953dec13c4dd4124054c59b7037d = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_e6949eb07bf8c356ba8ae464ac41d58c.setIcon(custom_icon_e942953dec13c4dd4124054c59b7037d);
+        
+    
+        var popup_fc299434f3a794c97190642b0ba5781d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5dac7e0b42770eabd2fd0d264c1701d6 = $(`<div id="html_5dac7e0b42770eabd2fd0d264c1701d6" style="width: 100.0%; height: 100.0%;">     <h4>ID: M2619</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>67-015 Most cez Súľovský potok v obci Gemerská Poloma</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1958 (pred 65 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Rožňava</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>10.15 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_fc299434f3a794c97190642b0ba5781d.setContent(html_5dac7e0b42770eabd2fd0d264c1701d6);
+            
+        
+
+        marker_e6949eb07bf8c356ba8ae464ac41d58c.bindPopup(popup_fc299434f3a794c97190642b0ba5781d)
+        ;
+
+        
+    
+    
+            var marker_4a2b286e5248bd08effe016242c7fb00 = L.marker(
+                [49.279887612, 20.176698724],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_e820c6f37182bcd900dfc685772eed5c = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_4a2b286e5248bd08effe016242c7fb00.setIcon(custom_icon_e820c6f37182bcd900dfc685772eed5c);
+        
+    
+        var popup_7479ff08cc4913042480c5314bc90a4d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_00f4e3c73e7f3896571beeb6466eb61c = $(`<div id="html_00f4e3c73e7f3896571beeb6466eb61c" style="width: 100.0%; height: 100.0%;">     <h4>ID: M1638</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>67-083 Most cez potok Javorinka v obci Podspády</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1953 (pred 70 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Poprad</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>15.0 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_7479ff08cc4913042480c5314bc90a4d.setContent(html_00f4e3c73e7f3896571beeb6466eb61c);
+            
+        
+
+        marker_4a2b286e5248bd08effe016242c7fb00.bindPopup(popup_7479ff08cc4913042480c5314bc90a4d)
+        ;
+
+        
+    
+    
+            var marker_54c462402901ee59247e1996f13cf168 = L.marker(
+                [49.26348, 20.11483],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_d2ea340c0a3ee0ed0f7e406418a160f8 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_54c462402901ee59247e1996f13cf168.setIcon(custom_icon_d2ea340c0a3ee0ed0f7e406418a160f8);
+        
+    
+        var popup_6a54b6cf1c8282849c5a4e6f96a58e17 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_041af40082bf977fcd4cc6783d08f15e = $(`<div id="html_041af40082bf977fcd4cc6783d08f15e" style="width: 100.0%; height: 100.0%;">     <h4>ID: M1305</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez rieku Biela voda za obcou Lysá Poľana - hraničný most SR-PL</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1900 (pred 123 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Poprad</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>20.1 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>oceľ -  priehradová</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_6a54b6cf1c8282849c5a4e6f96a58e17.setContent(html_041af40082bf977fcd4cc6783d08f15e);
+            
+        
+
+        marker_54c462402901ee59247e1996f13cf168.bindPopup(popup_6a54b6cf1c8282849c5a4e6f96a58e17)
+        ;
+
+        
+    
+    
+            var marker_b51d9383a068511f2488c427e36a1192 = L.marker(
+                [49.358557055, 20.683683516],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_1c60a4f0784d3b47978289fe35126657 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_b51d9383a068511f2488c427e36a1192.setIcon(custom_icon_1c60a4f0784d3b47978289fe35126657);
+        
+    
+        var popup_f162bfefd07dd2ca9d741f65343cdc75 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d315b888b3ea37bc967bc5924dc52c42 = $(`<div id="html_d315b888b3ea37bc967bc5924dc52c42" style="width: 100.0%; height: 100.0%;">     <h4>ID: M5096</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>68_007 Most cez bezmenný potok pred obcou Hraničné</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1948 (pred 75 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Stará Ľubovňa</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>4.7 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_f162bfefd07dd2ca9d741f65343cdc75.setContent(html_d315b888b3ea37bc967bc5924dc52c42);
+            
+        
+
+        marker_b51d9383a068511f2488c427e36a1192.bindPopup(popup_f162bfefd07dd2ca9d741f65343cdc75)
+        ;
+
+        
+    
+    
+            var marker_db3d736e44ffcce6d78f3a7c53b67293 = L.marker(
+                [49.255911178, 20.842920668],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_8a8151bf91cbd08ceded6f9f88e08bb7 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_db3d736e44ffcce6d78f3a7c53b67293.setIcon(custom_icon_8a8151bf91cbd08ceded6f9f88e08bb7);
+        
+    
+        var popup_6a97cf97608fe61abe29fa8a2aed6934 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b96fbf53d2a28edffde11648586bbd34 = $(`<div id="html_b96fbf53d2a28edffde11648586bbd34" style="width: 100.0%; height: 100.0%;">     <h4>ID: M4413</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>68_019 Most cez bezmenný potok za obcou Ľubotín</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1980 (pred 43 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Stará Ľubovňa</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>7.76 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_6a97cf97608fe61abe29fa8a2aed6934.setContent(html_b96fbf53d2a28edffde11648586bbd34);
+            
+        
+
+        marker_db3d736e44ffcce6d78f3a7c53b67293.bindPopup(popup_6a97cf97608fe61abe29fa8a2aed6934)
+        ;
+
+        
+    
+    
+            var marker_09869cc02995a7f92f0441a3581a15bb = L.marker(
+                [48.806011604, 19.646389052],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_c25f50f471d80b94984f657661e5f17c = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_09869cc02995a7f92f0441a3581a15bb.setIcon(custom_icon_c25f50f471d80b94984f657661e5f17c);
+        
+    
+        var popup_d791ed0a6cdfb74f4026dbd7943dff9d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e676c64c9351e93d89ce04d0577d4ded = $(`<div id="html_e676c64c9351e93d89ce04d0577d4ded" style="width: 100.0%; height: 100.0%;">     <h4>ID: M6817</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>72-045 most cez Hron v Brezne</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1940 (pred 83 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Brezno</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>21.4 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_d791ed0a6cdfb74f4026dbd7943dff9d.setContent(html_e676c64c9351e93d89ce04d0577d4ded);
+            
+        
+
+        marker_09869cc02995a7f92f0441a3581a15bb.bindPopup(popup_d791ed0a6cdfb74f4026dbd7943dff9d)
+        ;
+
+        
+    
+    
+            var marker_4f5974573d4503dc9a1807dd4a24b0a6 = L.marker(
+                [48.915006553, 22.37167835],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_bf6c2886251d895e3f8e0628f7fcfbe2 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_4f5974573d4503dc9a1807dd4a24b0a6.setIcon(custom_icon_bf6c2886251d895e3f8e0628f7fcfbe2);
+        
+    
+        var popup_8dfb1881f6787ef7e474695505efc151 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5c0eb62dda6039ec949a2a1dc982d551 = $(`<div id="html_5c0eb62dda6039ec949a2a1dc982d551" style="width: 100.0%; height: 100.0%;">     <h4>ID: M7607</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>74_043 Most cez potok Rovenský pred obcou Ubľa</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1959 (pred 64 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Snina</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>17.25 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_8dfb1881f6787ef7e474695505efc151.setContent(html_5c0eb62dda6039ec949a2a1dc982d551);
+            
+        
+
+        marker_4f5974573d4503dc9a1807dd4a24b0a6.bindPopup(popup_8dfb1881f6787ef7e474695505efc151)
+        ;
+
+        
+    
+    
+            var marker_22f2756265b4404e37a120e9820f83d0 = L.marker(
+                [49.27387136, 20.563166575],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_d1540bd6078e43bad1a7a68820b11e1c = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_22f2756265b4404e37a120e9820f83d0.setIcon(custom_icon_d1540bd6078e43bad1a7a68820b11e1c);
+        
+    
+        var popup_2c5f7b9d7e5a7efefa689a36632c562b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_024d317a1075b557a6ce35faf398c430 = $(`<div id="html_024d317a1075b557a6ce35faf398c430" style="width: 100.0%; height: 100.0%;">     <h4>ID: M1218</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>77_012 Most nad železničnou traťou za obcou Podolínec</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1963 (pred 60 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Stará Ľubovňa</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>8.2 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_2c5f7b9d7e5a7efefa689a36632c562b.setContent(html_024d317a1075b557a6ce35faf398c430);
+            
+        
+
+        marker_22f2756265b4404e37a120e9820f83d0.bindPopup(popup_2c5f7b9d7e5a7efefa689a36632c562b)
+        ;
+
+        
+    
+    
+            var marker_4451515c8fc00d46463f0f080c476160 = L.marker(
+                [49.30702, 21.01068],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_a5319452c39404cc2b48594212edcc2e = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_4451515c8fc00d46463f0f080c476160.setIcon(custom_icon_a5319452c39404cc2b48594212edcc2e);
+        
+    
+        var popup_f08d58ae963115144202a6fc39f2efaa = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1e85a767527abf8e1ca1f56338e776d9 = $(`<div id="html_1e85a767527abf8e1ca1f56338e776d9" style="width: 100.0%; height: 100.0%;">     <h4>ID: M485</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>77-035 Most cez Večný potok pred obcou Lenartov</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1969 (pred 54 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Bardejov</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>13.25 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_f08d58ae963115144202a6fc39f2efaa.setContent(html_1e85a767527abf8e1ca1f56338e776d9);
+            
+        
+
+        marker_4451515c8fc00d46463f0f080c476160.bindPopup(popup_f08d58ae963115144202a6fc39f2efaa)
+        ;
+
+        
+    
+    
+            var marker_699bc8ffef98b422ded29c82c4b52e97 = L.marker(
+                [49.400105356, 19.461463513],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_f5d271e45b6b851e5191d0618b32ca85 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_699bc8ffef98b422ded29c82c4b52e97.setIcon(custom_icon_f5d271e45b6b851e5191d0618b32ca85);
+        
+    
+        var popup_5cc72443e0c6f59e0b099fbbc7db5fa0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_799c2eda0533903f5514e7aaa59aa4d9 = $(`<div id="html_799c2eda0533903f5514e7aaa59aa4d9" style="width: 100.0%; height: 100.0%;">     <h4>ID: M660</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>78_018 Most cez potok v obci Námestovo</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1956 (pred 67 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Námestovo</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>2.8 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_5cc72443e0c6f59e0b099fbbc7db5fa0.setContent(html_799c2eda0533903f5514e7aaa59aa4d9);
+            
+        
+
+        marker_699bc8ffef98b422ded29c82c4b52e97.bindPopup(popup_5cc72443e0c6f59e0b099fbbc7db5fa0)
+        ;
+
+        
+    
+    
+            var marker_466ec9a030b0f22b6dc70481f056303c = L.marker(
+                [48.62567, 21.69743],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_e205679880705eb0693177c7939ffa8a = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_466ec9a030b0f22b6dc70481f056303c.setIcon(custom_icon_e205679880705eb0693177c7939ffa8a);
+        
+    
+        var popup_220fc2f55da7b1bdf3f52f2d13e1b425 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bb2f96a94f76814bf606184d9eaea909 = $(`<div id="html_bb2f96a94f76814bf606184d9eaea909" style="width: 100.0%; height: 100.0%;">     <h4>ID: M6028</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>79_021 Most cez železničnú trať a miestnu komunikáciu v meste Trebišov</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1989 (pred 34 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Trebišov</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>91.76 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_220fc2f55da7b1bdf3f52f2d13e1b425.setContent(html_bb2f96a94f76814bf606184d9eaea909);
+            
+        
+
+        marker_466ec9a030b0f22b6dc70481f056303c.bindPopup(popup_220fc2f55da7b1bdf3f52f2d13e1b425)
+        ;
+
+        
+    
+    
+            var marker_e49081ebcc25b7f5c8a0b4ae6bd36bd8 = L.marker(
+                [48.686940964, 16.98960576],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_0d99978dbe76f92cfa1edac0983d9d44 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_e49081ebcc25b7f5c8a0b4ae6bd36bd8.setIcon(custom_icon_0d99978dbe76f92cfa1edac0983d9d44);
+        
+    
+        var popup_db63482fd864fb5167fc8a48ff1a5721 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_963cb2fef2685a818857709dbb69a61e = $(`<div id="html_963cb2fef2685a818857709dbb69a61e" style="width: 100.0%; height: 100.0%;">     <h4>ID: M1644</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>425-031 Most cez rieku Morava pri obci Brodské</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1949 (pred 74 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Skalica</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>80.6 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_db63482fd864fb5167fc8a48ff1a5721.setContent(html_963cb2fef2685a818857709dbb69a61e);
+            
+        
+
+        marker_e49081ebcc25b7f5c8a0b4ae6bd36bd8.bindPopup(popup_db63482fd864fb5167fc8a48ff1a5721)
+        ;
+
+        
+    
+    
+            var marker_97fd1558f96c90e5bbf88d98dde260f4 = L.marker(
+                [47.92819, 17.48778],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_972e08e855a375c0621eb8714386799c = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_97fd1558f96c90e5bbf88d98dde260f4.setIcon(custom_icon_972e08e855a375c0621eb8714386799c);
+        
+    
+        var popup_b1b9eb6c7019f45304d25e180ae40b1b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_281a4f2e335138db27bd762b60964731 = $(`<div id="html_281a4f2e335138db27bd762b60964731" style="width: 100.0%; height: 100.0%;">     <h4>ID: M2629</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>506-002 Most cez kanál v k.ú. obce Trstená na Ostrove v km 12,250</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1962 (pred 61 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Dunajská Streda</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>16.45 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_b1b9eb6c7019f45304d25e180ae40b1b.setContent(html_281a4f2e335138db27bd762b60964731);
+            
+        
+
+        marker_97fd1558f96c90e5bbf88d98dde260f4.bindPopup(popup_b1b9eb6c7019f45304d25e180ae40b1b)
+        ;
+
+        
+    
+    
+            var marker_f516d04fa3e37cf2a32b5cc59871da21 = L.marker(
+                [48.19162, 17.59677],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_f3f941c3023c4cc1d7238502132f2dff = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_f516d04fa3e37cf2a32b5cc59871da21.setIcon(custom_icon_f3f941c3023c4cc1d7238502132f2dff);
+        
+    
+        var popup_3362d812fb88c4469f5505bca58b6c20 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ab773a78c6a30447d15317801b38fa07 = $(`<div id="html_ab773a78c6a30447d15317801b38fa07" style="width: 100.0%; height: 100.0%;">     <h4>ID: M392</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez potok Čierna voda za obcou Velké Uľany</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1960 (pred 63 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Galanta</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>20.3 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_3362d812fb88c4469f5505bca58b6c20.setContent(html_ab773a78c6a30447d15317801b38fa07);
+            
+        
+
+        marker_f516d04fa3e37cf2a32b5cc59871da21.bindPopup(popup_3362d812fb88c4469f5505bca58b6c20)
+        ;
+
+        
+    
+    
+            var marker_9c776222e803e9ce3575a283fbeedbc9 = L.marker(
+                [48.961924688, 20.581924895],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_eec73d4873418743ef858a42d1289168 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_9c776222e803e9ce3575a283fbeedbc9.setIcon(custom_icon_eec73d4873418743ef858a42d1289168);
+        
+    
+        var popup_da65ea2c7d79fa6b57deb10aa46dc211 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d3e59e9936dfb05cba06654b00a92cbb = $(`<div id="html_d3e59e9936dfb05cba06654b00a92cbb" style="width: 100.0%; height: 100.0%;">     <h4>ID: M6258</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez Levočský potok v obci Harichovce</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1957 (pred 66 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Spišská Nová Ves</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>17.6 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_da65ea2c7d79fa6b57deb10aa46dc211.setContent(html_d3e59e9936dfb05cba06654b00a92cbb);
+            
+        
+
+        marker_9c776222e803e9ce3575a283fbeedbc9.bindPopup(popup_da65ea2c7d79fa6b57deb10aa46dc211)
+        ;
+
+        
+    
+    
+            var marker_e43d28ef772d4b6a1f68c5533a0e184e = L.marker(
+                [48.875935273, 20.537433461],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_e14c6e0b816b6dbad4d86d3672611769 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_e43d28ef772d4b6a1f68c5533a0e184e.setIcon(custom_icon_e14c6e0b816b6dbad4d86d3672611769);
+        
+    
+        var popup_e43bb7785fb253def581de7b5c8ca924 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_98cd4393d350a41ab0377f671154a446 = $(`<div id="html_98cd4393d350a41ab0377f671154a446" style="width: 100.0%; height: 100.0%;">     <h4>ID: M4871</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez potôčik v osade Zimné</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1935 (pred 88 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Spišská Nová Ves</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>6.2 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_e43bb7785fb253def581de7b5c8ca924.setContent(html_98cd4393d350a41ab0377f671154a446);
+            
+        
+
+        marker_e43d28ef772d4b6a1f68c5533a0e184e.bindPopup(popup_e43bb7785fb253def581de7b5c8ca924)
+        ;
+
+        
+    
+    
+            var marker_6547dae46af07d7252a52eb9a3203644 = L.marker(
+                [48.5087742, 21.810387877],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_6f6212895e8e1905f3751e7d6dd9e92d = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_6547dae46af07d7252a52eb9a3203644.setIcon(custom_icon_6f6212895e8e1905f3751e7d6dd9e92d);
+        
+    
+        var popup_f32064c1b123218052ca53bdcd4a775c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_45030f6481718cafeee2e67bb4b4e06e = $(`<div id="html_45030f6481718cafeee2e67bb4b4e06e" style="width: 100.0%; height: 100.0%;">     <h4>ID: M2774</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez rieku Ondava pri obci Sírnik</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1965 (pred 58 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Trebišov</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>198.97 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_f32064c1b123218052ca53bdcd4a775c.setContent(html_45030f6481718cafeee2e67bb4b4e06e);
+            
+        
+
+        marker_6547dae46af07d7252a52eb9a3203644.bindPopup(popup_f32064c1b123218052ca53bdcd4a775c)
+        ;
+
+        
+    
+    
+            var marker_2ddbe6206f2321ac2fb0c07b2fa6ff35 = L.marker(
+                [48.646087783, 22.010958991],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_f730042891d7ed6e7f09bd87afcfe8fc = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_2ddbe6206f2321ac2fb0c07b2fa6ff35.setIcon(custom_icon_f730042891d7ed6e7f09bd87afcfe8fc);
+        
+    
+        var popup_789f8f9d89081f57ab8301466fe9bf3f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_61407033b4b137e202abcca127c8a906 = $(`<div id="html_61407033b4b137e202abcca127c8a906" style="width: 100.0%; height: 100.0%;">     <h4>ID: M4356</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez potok Čierna Voda za obcou Stretava</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1964 (pred 59 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Michalovce</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>38.6 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_789f8f9d89081f57ab8301466fe9bf3f.setContent(html_61407033b4b137e202abcca127c8a906);
+            
+        
+
+        marker_2ddbe6206f2321ac2fb0c07b2fa6ff35.bindPopup(popup_789f8f9d89081f57ab8301466fe9bf3f)
+        ;
+
+        
+    
+    
+            var marker_140f2647a679fc6cabdc2bdcf07f3348 = L.marker(
+                [48.05891, 17.82389],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_b5650b62f3af1e323bcc2345a6a4e175 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_140f2647a679fc6cabdc2bdcf07f3348.setIcon(custom_icon_b5650b62f3af1e323bcc2345a6a4e175);
+        
+    
+        var popup_3b6a9a71fa2e73aff0b4bbd0071fd28a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ff5f1c1074819d217ea59cbc1604f870 = $(`<div id="html_ff5f1c1074819d217ea59cbc1604f870" style="width: 100.0%; height: 100.0%;">     <h4>ID: M999</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez potok Čierna voda v obci Kráľov Brod</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1963 (pred 60 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Galanta</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>48.0 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_3b6a9a71fa2e73aff0b4bbd0071fd28a.setContent(html_ff5f1c1074819d217ea59cbc1604f870);
+            
+        
+
+        marker_140f2647a679fc6cabdc2bdcf07f3348.bindPopup(popup_3b6a9a71fa2e73aff0b4bbd0071fd28a)
+        ;
+
+        
+    
+    
+            var marker_b21ee6b95cc20a4859a3466eae754457 = L.marker(
+                [48.945952647, 22.367225884],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_d6e2dca3ec711d839674752081ba1b55 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_b21ee6b95cc20a4859a3466eae754457.setIcon(custom_icon_d6e2dca3ec711d839674752081ba1b55);
+        
+    
+        var popup_412b40f01000e6fb3ea18eb354a0feb2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e42748c3bc87d970f26925a758b1d789 = $(`<div id="html_e42748c3bc87d970f26925a758b1d789" style="width: 100.0%; height: 100.0%;">     <h4>ID: M7400</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez potok Stavenec za obcou Ruská Volová</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1955 (pred 68 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Snina</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>2.6 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_412b40f01000e6fb3ea18eb354a0feb2.setContent(html_e42748c3bc87d970f26925a758b1d789);
+            
+        
+
+        marker_b21ee6b95cc20a4859a3466eae754457.bindPopup(popup_412b40f01000e6fb3ea18eb354a0feb2)
+        ;
+
+        
+    
+    
+            var marker_f3b7c6603bfa67f2b88870e83d091387 = L.marker(
+                [48.309595389, 20.251367778],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_5328ae11e9fced53406c928382fd411f = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_f3b7c6603bfa67f2b88870e83d091387.setIcon(custom_icon_5328ae11e9fced53406c928382fd411f);
+        
+    
+        var popup_c8db8b6c84f5866d44cd2411f19f9d2a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ba62d7f8ebafb6ed5a0064f6962314a1 = $(`<div id="html_ba62d7f8ebafb6ed5a0064f6962314a1" style="width: 100.0%; height: 100.0%;">     <h4>ID: M3780</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>000571-039  Most cez  potok Blh   za obcou Rimavská Seč</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1958 (pred 65 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Rimavská Sobota</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>14.7 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_c8db8b6c84f5866d44cd2411f19f9d2a.setContent(html_ba62d7f8ebafb6ed5a0064f6962314a1);
+            
+        
+
+        marker_f3b7c6603bfa67f2b88870e83d091387.bindPopup(popup_c8db8b6c84f5866d44cd2411f19f9d2a)
+        ;
+
+        
+    
+    
+            var marker_08919c56c6c1cfc0f4abc804f98868d8 = L.marker(
+                [48.231917844, 17.835759232],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_dd2db6aadd5be79afc017f70ea129f5c = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_08919c56c6c1cfc0f4abc804f98868d8.setIcon(custom_icon_dd2db6aadd5be79afc017f70ea129f5c);
+        
+    
+        var popup_44fab72df48ff330229a4ab17fa7fb24 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9e75ea7acb5d9bc60789e57030d1c47c = $(`<div id="html_9e75ea7acb5d9bc60789e57030d1c47c" style="width: 100.0%; height: 100.0%;">     <h4>ID: M2255</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez potok Jarčie v k. ú. Obce Šoporňa</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1967 (pred 56 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Galanta</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>29.2 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_44fab72df48ff330229a4ab17fa7fb24.setContent(html_9e75ea7acb5d9bc60789e57030d1c47c);
+            
+        
+
+        marker_08919c56c6c1cfc0f4abc804f98868d8.bindPopup(popup_44fab72df48ff330229a4ab17fa7fb24)
+        ;
+
+        
+    
+    
+            var marker_89332eb0b30980eb08fa1c7c3eb3a196 = L.marker(
+                [49.00332177, 18.230441138],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_e9ec437cbd6f7073d2394353b785e1e9 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_89332eb0b30980eb08fa1c7c3eb3a196.setIcon(custom_icon_e9ec437cbd6f7073d2394353b785e1e9);
+        
+    
+        var popup_a9379c5bd7f8ae76545f6f6ebba3b808 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3fa983e0f8c15bed9f782a95b984c3e0 = $(`<div id="html_3fa983e0f8c15bed9f782a95b984c3e0" style="width: 100.0%; height: 100.0%;">     <h4>ID: M5772</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most medzi obcou Pruské a mestom Ilava</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1906 (pred 117 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Ilava</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>48.0 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>oceľ -  priehradová</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_a9379c5bd7f8ae76545f6f6ebba3b808.setContent(html_3fa983e0f8c15bed9f782a95b984c3e0);
+            
+        
+
+        marker_89332eb0b30980eb08fa1c7c3eb3a196.bindPopup(popup_a9379c5bd7f8ae76545f6f6ebba3b808)
+        ;
+
+        
+    
+    
+            var marker_a203aad83567730e0c87924d2ac0c5d3 = L.marker(
+                [48.81250111, 21.51601848],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_a2de09a939153872a764f1ea16f8d358 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_a203aad83567730e0c87924d2ac0c5d3.setIcon(custom_icon_a2de09a939153872a764f1ea16f8d358);
+        
+    
+        var popup_330e03b5d991c6dfb54b6aed2bcb2661 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cf0d8a765d4fd450b3ec6fda0cbab671 = $(`<div id="html_cf0d8a765d4fd450b3ec6fda0cbab671" style="width: 100.0%; height: 100.0%;">     <h4>ID: M7142</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez horský potok pred obcou Herľany</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1948 (pred 75 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Košice - okolie</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>5.5 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>oceľ -  plnostenná</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_330e03b5d991c6dfb54b6aed2bcb2661.setContent(html_cf0d8a765d4fd450b3ec6fda0cbab671);
+            
+        
+
+        marker_a203aad83567730e0c87924d2ac0c5d3.bindPopup(popup_330e03b5d991c6dfb54b6aed2bcb2661)
+        ;
+
+        
+    
+    
+            var marker_c519531f1ea1808e93f42666c02a7d73 = L.marker(
+                [49.30528, 19.48021],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_aead126478569795df7d102ed32bb9aa = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_c519531f1ea1808e93f42666c02a7d73.setIcon(custom_icon_aead126478569795df7d102ed32bb9aa);
+        
+    
+        var popup_9f5827976e9ef2851fdbc587509ab7c5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9067ff6b16cf69d97bbeb4d766834870 = $(`<div id="html_9067ff6b16cf69d97bbeb4d766834870" style="width: 100.0%; height: 100.0%;">     <h4>ID: M3200</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>2300_001 Most cez rieku Orava v obci Podbiel</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1945 (pred 78 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Tvrdošín</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>79.2 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>oceľ -  priehradová</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_9f5827976e9ef2851fdbc587509ab7c5.setContent(html_9067ff6b16cf69d97bbeb4d766834870);
+            
+        
+
+        marker_c519531f1ea1808e93f42666c02a7d73.bindPopup(popup_9f5827976e9ef2851fdbc587509ab7c5)
+        ;
+
+        
+    
+    
+            var marker_c607523e78313883d84add30a9234a6d = L.marker(
+                [48.324747228, 17.461454036],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_5a1f7e22617ff085473d8e67ecbf4ab0 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_c607523e78313883d84add30a9234a6d.setIcon(custom_icon_5a1f7e22617ff085473d8e67ecbf4ab0);
+        
+    
+        var popup_cbf4346015c05a9690427947ac79e807 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ae050ccf1d68209465d985944e7d011d = $(`<div id="html_ae050ccf1d68209465d985944e7d011d" style="width: 100.0%; height: 100.0%;">     <h4>ID: M7278</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez potok Gidra v obci Jarná</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1967 (pred 56 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Trnava</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>9.0 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>oceľ -  priehradová</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_cbf4346015c05a9690427947ac79e807.setContent(html_ae050ccf1d68209465d985944e7d011d);
+            
+        
+
+        marker_c607523e78313883d84add30a9234a6d.bindPopup(popup_cbf4346015c05a9690427947ac79e807)
+        ;
+
+        
+    
+    
+            var marker_e857661fc0cd9a90c1a37099cb31e39c = L.marker(
+                [48.788180551, 19.292472191],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_363e5ff772cebd72a9c53f13f3d14508 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_e857661fc0cd9a90c1a37099cb31e39c.setIcon(custom_icon_363e5ff772cebd72a9c53f13f3d14508);
+        
+    
+        var popup_174d58427f24403a8c753eca673cff0d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7f1cd5d43de373f7c33ba717071cffd4 = $(`<div id="html_7f1cd5d43de373f7c33ba717071cffd4" style="width: 100.0%; height: 100.0%;">     <h4>ID: M437</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>2426-1_Most cez Moštenický potok v točke pred Moštenicou (066041-001)</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1937 (pred 86 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Banská Bystrica</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>4.0 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_174d58427f24403a8c753eca673cff0d.setContent(html_7f1cd5d43de373f7c33ba717071cffd4);
+            
+        
+
+        marker_e857661fc0cd9a90c1a37099cb31e39c.bindPopup(popup_174d58427f24403a8c753eca673cff0d)
+        ;
+
+        
+    
+    
+            var marker_c0fe75912955af969eb83683dd0fc940 = L.marker(
+                [49.23067, 20.31792],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_d6930ff85c5f42ca859c7a3d85b8102f = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_c0fe75912955af969eb83683dd0fc940.setIcon(custom_icon_d6930ff85c5f42ca859c7a3d85b8102f);
+        
+    
+        var popup_64dc6bfc002212e5250b576b3993552c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5294a2e9ad16365b733a2f5c74ca33cf = $(`<div id="html_5294a2e9ad16365b733a2f5c74ca33cf" style="width: 100.0%; height: 100.0%;">     <h4>ID: M3911</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez rieku Biela za obcou Tatranská Kotlina</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1959 (pred 64 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Poprad</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>13.4 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_64dc6bfc002212e5250b576b3993552c.setContent(html_5294a2e9ad16365b733a2f5c74ca33cf);
+            
+        
+
+        marker_c0fe75912955af969eb83683dd0fc940.bindPopup(popup_64dc6bfc002212e5250b576b3993552c)
+        ;
+
+        
+    
+    
+            var marker_e5c715b0a4c74487f319f5bd76e7557c = L.marker(
+                [48.411807187, 17.430806538],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_1480cd43f97298066d36833343c0b24d = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_e5c715b0a4c74487f319f5bd76e7557c.setIcon(custom_icon_1480cd43f97298066d36833343c0b24d);
+        
+    
+        var popup_a0abf7faeabb5c3f86b1b2431777217f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_016e709a0437d81d00b2f9170cf253de = $(`<div id="html_016e709a0437d81d00b2f9170cf253de" style="width: 100.0%; height: 100.0%;">     <h4>ID: M3636</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez Kozárovský potok v obci Dlhá</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1972 (pred 51 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Trnava</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>7.7 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_a0abf7faeabb5c3f86b1b2431777217f.setContent(html_016e709a0437d81d00b2f9170cf253de);
+            
+        
+
+        marker_e5c715b0a4c74487f319f5bd76e7557c.bindPopup(popup_a0abf7faeabb5c3f86b1b2431777217f)
+        ;
+
+        
+    
+    
+            var marker_65aef7a9c3980c6d264fa59d69258832 = L.marker(
+                [48.413240577, 17.417247191],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_c594793ab27e3941acddfee680ff239d = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_65aef7a9c3980c6d264fa59d69258832.setIcon(custom_icon_c594793ab27e3941acddfee680ff239d);
+        
+    
+        var popup_cb84ac731b6c0c7635dc2990151e7a4f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fe9f0cf365320b092c0419566c6afddc = $(`<div id="html_fe9f0cf365320b092c0419566c6afddc" style="width: 100.0%; height: 100.0%;">     <h4>ID: M5497</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez bezmenný potok za obcou Dlhá</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1975 (pred 48 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Trnava</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>4.45 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_cb84ac731b6c0c7635dc2990151e7a4f.setContent(html_fe9f0cf365320b092c0419566c6afddc);
+            
+        
+
+        marker_65aef7a9c3980c6d264fa59d69258832.bindPopup(popup_cb84ac731b6c0c7635dc2990151e7a4f)
+        ;
+
+        
+    
+    
+            var marker_1535e83d36e24f5a9b1d5b46861ecdd3 = L.marker(
+                [47.937930679, 17.533425406],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_b653411c286dd97d4ac406398bfd3019 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_1535e83d36e24f5a9b1d5b46861ecdd3.setIcon(custom_icon_b653411c286dd97d4ac406398bfd3019);
+        
+    
+        var popup_e00896203df02d1964e7a2d59bcee7ef = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6a3120239a8d8442b7fe189aaaa9af08 = $(`<div id="html_6a3120239a8d8442b7fe189aaaa9af08" style="width: 100.0%; height: 100.0%;">     <h4>ID: M6194</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>1418-002 most cez Fenešský kanál za obcou Jurová v km 5,672</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1932 (pred 91 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Dunajská Streda</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>2.2 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_e00896203df02d1964e7a2d59bcee7ef.setContent(html_6a3120239a8d8442b7fe189aaaa9af08);
+            
+        
+
+        marker_1535e83d36e24f5a9b1d5b46861ecdd3.bindPopup(popup_e00896203df02d1964e7a2d59bcee7ef)
+        ;
+
+        
+    
+    
+            var marker_67fa6a0d6e0a6a0e76d8bfc4f5af8231 = L.marker(
+                [48.129706676, 18.61205129],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_182e46a82d71532cd55d4594ead802af = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_67fa6a0d6e0a6a0e76d8bfc4f5af8231.setIcon(custom_icon_182e46a82d71532cd55d4594ead802af);
+        
+    
+        var popup_cc2aecbb0e1260a88f71015986e3d10f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3d12cbd5cf0e65c92e5bf56faeeafcb4 = $(`<div id="html_3d12cbd5cf0e65c92e5bf56faeeafcb4" style="width: 100.0%; height: 100.0%;">     <h4>ID: M2465</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez rieku Hron v k. ú. Jur nad Hronom</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1961 (pred 62 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Levice</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>101.6 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_cc2aecbb0e1260a88f71015986e3d10f.setContent(html_3d12cbd5cf0e65c92e5bf56faeeafcb4);
+            
+        
+
+        marker_67fa6a0d6e0a6a0e76d8bfc4f5af8231.bindPopup(popup_cc2aecbb0e1260a88f71015986e3d10f)
+        ;
+
+        
+    
+    
+            var marker_6bc655f576be25f74d9aa459b922a5c9 = L.marker(
+                [49.334225075, 20.301413019],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_04441d7d787f30e1e429f6a599808c5c = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_6bc655f576be25f74d9aa459b922a5c9.setIcon(custom_icon_04441d7d787f30e1e429f6a599808c5c);
+        
+    
+        var popup_0b8472088daea4bb4001d38dd8ad3386 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c58450930051aad52fd7a44b44673f6c = $(`<div id="html_c58450930051aad52fd7a44b44673f6c" style="width: 100.0%; height: 100.0%;">     <h4>ID: M4415</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez Frankovský potok za obcou Veľká Franková</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1951 (pred 72 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Kežmarok</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>8.1 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>oceľ -  plnostenná</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_0b8472088daea4bb4001d38dd8ad3386.setContent(html_c58450930051aad52fd7a44b44673f6c);
+            
+        
+
+        marker_6bc655f576be25f74d9aa459b922a5c9.bindPopup(popup_0b8472088daea4bb4001d38dd8ad3386)
+        ;
+
+        
+    
+    
+            var marker_4321471f913a44c4c21bed48a134055c = L.marker(
+                [48.853634326, 20.614222772],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_d86c5722d0cf563a5523ed100bf87a2d = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_4321471f913a44c4c21bed48a134055c.setIcon(custom_icon_d86c5722d0cf563a5523ed100bf87a2d);
+        
+    
+        var popup_00fa91d492b7379c2661b2fda972c83a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ef74b99f0425722c4b428a760531ce56 = $(`<div id="html_ef74b99f0425722c4b428a760531ce56" style="width: 100.0%; height: 100.0%;">     <h4>ID: M5022</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez potok pred obcou Závadka</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1952 (pred 71 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Gelnica</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>2.6 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_00fa91d492b7379c2661b2fda972c83a.setContent(html_ef74b99f0425722c4b428a760531ce56);
+            
+        
+
+        marker_4321471f913a44c4c21bed48a134055c.bindPopup(popup_00fa91d492b7379c2661b2fda972c83a)
+        ;
+
+        
+    
+    
+            var marker_5c1b6d043e0fd2ee5e9520a3058d4d2a = L.marker(
+                [48.914543105, 20.952865407],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_1dc76c3de4524f332e00a11f1012a431 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_5c1b6d043e0fd2ee5e9520a3058d4d2a.setIcon(custom_icon_1dc76c3de4524f332e00a11f1012a431);
+        
+    
+        var popup_b15b18e0790c44ac6bd6d88c1b02842e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3d8d84f8e854e94f336c34433654d51f = $(`<div id="html_3d8d84f8e854e94f336c34433654d51f" style="width: 100.0%; height: 100.0%;">     <h4>ID: M1910</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most nadcestie trať ČSD Košice - Žilina</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1958 (pred 65 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Gelnica</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>37.5 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_b15b18e0790c44ac6bd6d88c1b02842e.setContent(html_3d8d84f8e854e94f336c34433654d51f);
+            
+        
+
+        marker_5c1b6d043e0fd2ee5e9520a3058d4d2a.bindPopup(popup_b15b18e0790c44ac6bd6d88c1b02842e)
+        ;
+
+        
+    
+    
+            var marker_cf8d2740c1f65c18dc2b101307e929d3 = L.marker(
+                [48.626216896, 22.16863466],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_ddba2c20753381971db253cf509f8f48 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_cf8d2740c1f65c18dc2b101307e929d3.setIcon(custom_icon_ddba2c20753381971db253cf509f8f48);
+        
+    
+        var popup_bd49dfebcfffc10a6ac7456eb1cc0b7e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c7ebd467b4903d15a514ac5872ba24ec = $(`<div id="html_c7ebd467b4903d15a514ac5872ba24ec" style="width: 100.0%; height: 100.0%;">     <h4>ID: M7170</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez záchytný kanál pred obcou Záhor</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1963 (pred 60 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Sobrance</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>47.25 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_bd49dfebcfffc10a6ac7456eb1cc0b7e.setContent(html_c7ebd467b4903d15a514ac5872ba24ec);
+            
+        
+
+        marker_cf8d2740c1f65c18dc2b101307e929d3.bindPopup(popup_bd49dfebcfffc10a6ac7456eb1cc0b7e)
+        ;
+
+        
+    
+    
+            var marker_9535df22d233b9c8b1232431be3c3cc5 = L.marker(
+                [48.500088274, 22.138851654],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_c2063cc9435009f9397bd8a8bb3ba6b9 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_9535df22d233b9c8b1232431be3c3cc5.setIcon(custom_icon_c2063cc9435009f9397bd8a8bb3ba6b9);
+        
+    
+        var popup_595b378bb1a5b7e5f9f412a5bd41c732 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8cc30335ecfe720e10977856c9743cb7 = $(`<div id="html_8cc30335ecfe720e10977856c9743cb7" style="width: 100.0%; height: 100.0%;">     <h4>ID: M4664</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>Most cez inundačný kanál pred obcou Ptrukša</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1960 (pred 63 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Michalovce</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>2.1 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_595b378bb1a5b7e5f9f412a5bd41c732.setContent(html_8cc30335ecfe720e10977856c9743cb7);
+            
+        
+
+        marker_9535df22d233b9c8b1232431be3c3cc5.bindPopup(popup_595b378bb1a5b7e5f9f412a5bd41c732)
+        ;
+
+        
+    
+    
+            var marker_17985201a51e8bcff363308f07e1df1b = L.marker(
+                [48.663960065, 22.007322452],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_6c625c894c6d54f77267768122a71642 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_17985201a51e8bcff363308f07e1df1b.setIcon(custom_icon_6c625c894c6d54f77267768122a71642);
+        
+    
+        var popup_7cdc765140a48d29a9b99e860b12cd12 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bf2c2c727bf4522c9c74ae679a26ce8c = $(`<div id="html_bf2c2c727bf4522c9c74ae679a26ce8c" style="width: 100.0%; height: 100.0%;">     <h4>ID: M3534</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>555002- 001 Most cez kanál pred obcou Senné</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1946 (pred 77 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Michalovce</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>10.0 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>monolitický železobetón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_7cdc765140a48d29a9b99e860b12cd12.setContent(html_bf2c2c727bf4522c9c74ae679a26ce8c);
+            
+        
+
+        marker_17985201a51e8bcff363308f07e1df1b.bindPopup(popup_7cdc765140a48d29a9b99e860b12cd12)
+        ;
+
+        
+    
+    
+            var marker_c05e433bc4236f23373249f6c6a5b5b5 = L.marker(
+                [48.31872, 19.77301],
+                {}
+            ).addTo(map_5af5b570997e07a64e23b46c8df07b8c);
+        
+    
+        var custom_icon_5d774ed94d0687f419a6d8805801acd3 = L.icon({"iconAnchor": [25, 50], "iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/Medvedku/Assets/9d3208870f50e96e7907ec8394da05bc765a3943/markers/nmark_7.svg"});
+        marker_c05e433bc4236f23373249f6c6a5b5b5.setIcon(custom_icon_5d774ed94d0687f419a6d8805801acd3);
+        
+    
+        var popup_f29aa32bfbcebe144540133b83e8905b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a1aad8873dda933a3f5ab597eb25b0db = $(`<div id="html_a1aad8873dda933a3f5ab597eb25b0db" style="width: 100.0%; height: 100.0%;">     <h4>ID: M4291</h4>     <table>         <tr>             <td><u>Názov:</u>&nbsp; </td>             <td>2668-3_Most cez Ipeľ v obci Nitra nad Ipľom (571002-003)</td>         </tr>         <tr>             <td><u>Rok:</u>&nbsp; </td>             <td>1956 (pred 67 rokmi)</td>         </tr>         <tr>             <td><u>Okres:</u>&nbsp; </td>             <td>Lučenec</td>         </tr>         <tr>             <td><u>Dĺžka:</u>&nbsp; </td>             <td>33.32 m</td>         </tr>         <tr>             <td><u>Materiál:</u>&nbsp; </td>             <td>prefabrikovaný predpätý betón</td>         </tr>         <tr>             <td><u>STS</u>&nbsp; </td>             <td>Havarijný - 7</td>         </tr>     </table>     </div>`)[0];
+                popup_f29aa32bfbcebe144540133b83e8905b.setContent(html_a1aad8873dda933a3f5ab597eb25b0db);
+            
+        
+
+        marker_c05e433bc4236f23373249f6c6a5b5b5.bindPopup(popup_f29aa32bfbcebe144540133b83e8905b)
+        ;
+
+        
+    
+</script>
+</html>
