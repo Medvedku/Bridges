@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="432pt" viewBox="0 0 720 432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2023-10-18T14:17:05.939708</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.7.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 432 
+L 720 432 
+L 720 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 90 384.48 
+L 648 384.48 
+L 648 51.84 
+L 90 51.84 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m90b61d9ef1" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="115.363636" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 2012 -->
+      <g transform="translate(119.199418 420.936875) rotate(-90) scale(0.14 -0.14)">
+       <defs>
+        <path id="Montserrat-Thin-32" d="M 275 0 
+L 275 96 
+L 2214 2061 
+Q 2502 2349 2649 2566 
+Q 2797 2784 2848 2973 
+Q 2899 3162 2899 3347 
+Q 2899 3821 2579 4099 
+Q 2259 4378 1651 4378 
+Q 1190 4378 851 4243 
+Q 512 4109 269 3834 
+L 179 3923 
+Q 429 4205 797 4352 
+Q 1165 4499 1651 4499 
+Q 2074 4499 2384 4361 
+Q 2694 4224 2860 3968 
+Q 3027 3712 3027 3354 
+Q 3027 3142 2966 2937 
+Q 2906 2733 2752 2502 
+Q 2598 2272 2304 1978 
+L 422 70 
+L 346 122 
+L 3270 122 
+L 3270 0 
+L 275 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="Montserrat-Thin-30" d="M 2086 -19 
+Q 1581 -19 1193 259 
+Q 806 538 592 1046 
+Q 378 1555 378 2240 
+Q 378 2925 592 3433 
+Q 806 3942 1193 4220 
+Q 1581 4499 2086 4499 
+Q 2598 4499 2982 4220 
+Q 3366 3942 3580 3433 
+Q 3795 2925 3795 2240 
+Q 3795 1555 3580 1046 
+Q 3366 538 2982 259 
+Q 2598 -19 2086 -19 
+z
+M 2086 102 
+Q 2560 102 2915 364 
+Q 3270 627 3468 1107 
+Q 3667 1587 3667 2240 
+Q 3667 2899 3468 3376 
+Q 3270 3853 2915 4115 
+Q 2560 4378 2086 4378 
+Q 1619 4378 1260 4115 
+Q 902 3853 704 3376 
+Q 506 2899 506 2240 
+Q 506 1587 704 1107 
+Q 902 627 1260 364 
+Q 1619 102 2086 102 
+z
+" transform="scale(0.015625)"/>
+        <path id="Montserrat-Thin-31" d="M 1216 0 
+L 1216 4410 
+L 1274 4358 
+L 64 4358 
+L 64 4480 
+L 1338 4480 
+L 1338 0 
+L 1216 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-31" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-32" x="154.899979"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="161.479339" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 2013 -->
+      <g transform="translate(165.31512 420.838437) rotate(-90) scale(0.14 -0.14)">
+       <defs>
+        <path id="Montserrat-Thin-33" d="M 1658 -19 
+Q 1152 -19 739 160 
+Q 326 339 122 614 
+L 205 698 
+Q 390 448 777 275 
+Q 1165 102 1658 102 
+Q 2323 102 2665 409 
+Q 3008 717 3008 1229 
+Q 3008 1741 2659 2048 
+Q 2310 2355 1574 2355 
+L 1344 2355 
+L 1344 2451 
+L 2829 4403 
+L 2842 4358 
+L 262 4358 
+L 262 4480 
+L 2970 4480 
+L 2970 4384 
+L 1485 2432 
+L 1472 2477 
+L 1568 2477 
+Q 2362 2477 2749 2131 
+Q 3136 1786 3136 1229 
+Q 3136 858 2966 576 
+Q 2797 294 2467 137 
+Q 2138 -19 1658 -19 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-31" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-33" x="154.899979"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="207.595041" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 2014 -->
+      <g transform="translate(211.430823 422.18375) rotate(-90) scale(0.14 -0.14)">
+       <defs>
+        <path id="Montserrat-Thin-34" d="M 294 1331 
+L 294 1427 
+L 2816 4480 
+L 2970 4480 
+L 448 1427 
+L 365 1453 
+L 4013 1453 
+L 4013 1331 
+L 294 1331 
+z
+M 2886 0 
+L 2886 1331 
+L 2886 1453 
+L 2886 2624 
+L 3014 2624 
+L 3014 0 
+L 2886 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-31" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-34" x="154.899979"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="253.710744" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 2015 -->
+      <g transform="translate(257.546525 420.838437) rotate(-90) scale(0.14 -0.14)">
+       <defs>
+        <path id="Montserrat-Thin-35" d="M 1728 -19 
+Q 1235 -19 822 160 
+Q 410 339 205 614 
+L 288 698 
+Q 474 448 858 275 
+Q 1242 102 1728 102 
+Q 2419 102 2755 428 
+Q 3091 755 3091 1254 
+Q 3091 1619 2928 1881 
+Q 2765 2144 2381 2281 
+Q 1997 2419 1331 2419 
+L 486 2419 
+L 723 4480 
+L 2995 4480 
+L 2995 4358 
+L 794 4358 
+L 838 4410 
+L 614 2477 
+L 576 2541 
+L 1357 2541 
+Q 2048 2541 2454 2384 
+Q 2861 2227 3040 1939 
+Q 3219 1651 3219 1254 
+Q 3219 896 3052 605 
+Q 2886 314 2556 147 
+Q 2227 -19 1728 -19 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-31" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-35" x="154.899979"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="299.826446" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 2016 -->
+      <g transform="translate(303.662228 421.455312) rotate(-90) scale(0.14 -0.14)">
+       <defs>
+        <path id="Montserrat-Thin-36" d="M 2125 -19 
+Q 1542 -19 1155 256 
+Q 768 531 573 1040 
+Q 378 1549 378 2240 
+Q 378 2995 618 3494 
+Q 858 3994 1286 4246 
+Q 1715 4499 2285 4499 
+Q 2554 4499 2797 4454 
+Q 3040 4410 3238 4288 
+L 3174 4179 
+Q 3008 4288 2777 4333 
+Q 2547 4378 2285 4378 
+Q 1478 4378 992 3846 
+Q 506 3315 506 2253 
+Q 506 2093 528 1840 
+Q 550 1587 627 1344 
+L 576 1248 
+Q 589 1670 790 1974 
+Q 992 2278 1331 2438 
+Q 1670 2598 2080 2598 
+Q 2528 2598 2857 2438 
+Q 3187 2278 3369 1984 
+Q 3552 1690 3552 1293 
+Q 3552 896 3369 601 
+Q 3187 307 2864 144 
+Q 2541 -19 2125 -19 
+z
+M 2125 102 
+Q 2509 102 2800 249 
+Q 3091 397 3257 665 
+Q 3424 934 3424 1293 
+Q 3424 1830 3065 2153 
+Q 2707 2477 2080 2477 
+Q 1670 2477 1360 2317 
+Q 1050 2157 877 1885 
+Q 704 1613 704 1280 
+Q 704 998 864 726 
+Q 1024 454 1341 278 
+Q 1658 102 2125 102 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-31" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-36" x="154.899979"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="345.942149" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 2017 -->
+      <g transform="translate(349.77793 421.146875) rotate(-90) scale(0.14 -0.14)">
+       <defs>
+        <path id="Montserrat-Thin-37" d="M 1190 0 
+L 3206 4403 
+L 3283 4358 
+L 301 4358 
+L 358 4410 
+L 358 3456 
+L 230 3456 
+L 230 4480 
+L 3341 4480 
+L 3341 4384 
+L 1338 0 
+L 1190 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-31" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-37" x="154.899979"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="392.057851" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 2018 -->
+      <g transform="translate(395.893632 421.90375) rotate(-90) scale(0.14 -0.14)">
+       <defs>
+        <path id="Montserrat-Thin-38" d="M 1990 -19 
+Q 1472 -19 1107 128 
+Q 742 275 547 550 
+Q 352 826 352 1203 
+Q 352 1568 547 1833 
+Q 742 2099 1107 2240 
+Q 1472 2381 1990 2381 
+Q 2509 2381 2877 2240 
+Q 3245 2099 3443 1833 
+Q 3642 1568 3642 1203 
+Q 3642 826 3446 550 
+Q 3251 275 2880 128 
+Q 2509 -19 1990 -19 
+z
+M 1990 102 
+Q 2714 102 3114 396 
+Q 3514 691 3514 1197 
+Q 3514 1690 3114 1984 
+Q 2714 2278 1990 2278 
+Q 1274 2278 877 1984 
+Q 480 1690 480 1197 
+Q 480 691 877 396 
+Q 1274 102 1990 102 
+z
+M 1990 2298 
+Q 1517 2298 1187 2429 
+Q 858 2560 685 2803 
+Q 512 3046 512 3379 
+Q 512 3725 694 3977 
+Q 877 4230 1209 4364 
+Q 1542 4499 1990 4499 
+Q 2445 4499 2777 4364 
+Q 3110 4230 3296 3977 
+Q 3482 3725 3482 3379 
+Q 3482 3046 3306 2803 
+Q 3130 2560 2797 2429 
+Q 2464 2298 1990 2298 
+z
+M 1990 2400 
+Q 2637 2400 2995 2665 
+Q 3354 2931 3354 3379 
+Q 3354 3840 2986 4109 
+Q 2618 4378 1990 4378 
+Q 1370 4378 1005 4109 
+Q 640 3840 640 3386 
+Q 640 2938 995 2669 
+Q 1350 2400 1990 2400 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-31" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-38" x="154.899979"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="438.173554" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 2019 -->
+      <g transform="translate(442.009335 421.455312) rotate(-90) scale(0.14 -0.14)">
+       <defs>
+        <path id="Montserrat-Thin-39" d="M 1664 4499 
+Q 2246 4499 2633 4224 
+Q 3021 3949 3216 3443 
+Q 3411 2938 3411 2240 
+Q 3411 1491 3171 988 
+Q 2931 486 2502 233 
+Q 2074 -19 1504 -19 
+Q 1235 -19 992 25 
+Q 749 70 550 192 
+L 614 301 
+Q 781 198 1014 150 
+Q 1248 102 1504 102 
+Q 2310 102 2796 633 
+Q 3283 1165 3283 2227 
+Q 3283 2394 3260 2643 
+Q 3238 2893 3162 3136 
+L 3213 3232 
+Q 3200 2810 2998 2509 
+Q 2797 2208 2461 2045 
+Q 2125 1882 1709 1882 
+Q 1261 1882 931 2042 
+Q 602 2202 419 2496 
+Q 237 2790 237 3187 
+Q 237 3584 419 3878 
+Q 602 4173 925 4336 
+Q 1248 4499 1664 4499 
+z
+M 1664 4378 
+Q 1280 4378 989 4230 
+Q 698 4083 531 3814 
+Q 365 3546 365 3187 
+Q 365 2650 726 2326 
+Q 1088 2003 1709 2003 
+Q 2118 2003 2428 2163 
+Q 2739 2323 2912 2595 
+Q 3085 2867 3085 3200 
+Q 3085 3482 2925 3754 
+Q 2765 4026 2451 4202 
+Q 2138 4378 1664 4378 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-31" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-39" x="154.899979"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="484.289256" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 2020 -->
+      <g transform="translate(488.125037 425.276875) rotate(-90) scale(0.14 -0.14)">
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-32" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-30" x="176.199966"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="530.404959" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 2021 -->
+      <g transform="translate(534.24074 420.936875) rotate(-90) scale(0.14 -0.14)">
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-32" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-31" x="176.199966"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="576.520661" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 2022 -->
+      <g transform="translate(580.356442 423.918437) rotate(-90) scale(0.14 -0.14)">
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-32" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-32" x="176.199966"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m90b61d9ef1" x="622.636364" y="384.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 2023 -->
+      <g transform="translate(626.472145 423.82) rotate(-90) scale(0.14 -0.14)">
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-32" x="120.699982"/>
+       <use xlink:href="#Montserrat-Thin-33" x="176.199966"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <path d="M 90 372.13407 
+L 648 372.13407 
+" clip-path="url(#p731d76a859)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_14">
+      <defs>
+       <path id="mc1a27b48c4" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc1a27b48c4" x="90" y="372.13407" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 0% -->
+      <g transform="translate(62.671562 377.328289) scale(0.14 -0.14)">
+       <defs>
+        <path id="Montserrat-Thin-25" d="M 960 0 
+L 4019 4480 
+L 4160 4480 
+L 1101 0 
+L 960 0 
+z
+M 1274 2093 
+Q 998 2093 780 2240 
+Q 563 2387 441 2659 
+Q 320 2931 320 3296 
+Q 320 3661 441 3933 
+Q 563 4205 780 4352 
+Q 998 4499 1274 4499 
+Q 1555 4499 1769 4352 
+Q 1984 4205 2105 3933 
+Q 2227 3661 2227 3296 
+Q 2227 2931 2105 2659 
+Q 1984 2387 1769 2240 
+Q 1555 2093 1274 2093 
+z
+M 1274 2214 
+Q 1638 2214 1868 2502 
+Q 2099 2790 2099 3296 
+Q 2099 3802 1868 4090 
+Q 1638 4378 1274 4378 
+Q 909 4378 678 4090 
+Q 448 3802 448 3296 
+Q 448 2790 678 2502 
+Q 909 2214 1274 2214 
+z
+M 3846 -19 
+Q 3571 -19 3353 128 
+Q 3136 275 3014 547 
+Q 2893 819 2893 1184 
+Q 2893 1549 3014 1821 
+Q 3136 2093 3353 2240 
+Q 3571 2387 3846 2387 
+Q 4128 2387 4342 2240 
+Q 4557 2093 4678 1821 
+Q 4800 1549 4800 1184 
+Q 4800 819 4678 547 
+Q 4557 275 4342 128 
+Q 4128 -19 3846 -19 
+z
+M 3846 102 
+Q 4211 102 4441 390 
+Q 4672 678 4672 1184 
+Q 4672 1690 4441 1978 
+Q 4211 2266 3846 2266 
+Q 3482 2266 3251 1978 
+Q 3021 1690 3021 1184 
+Q 3021 678 3251 390 
+Q 3482 102 3846 102 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Montserrat-Thin-30"/>
+       <use xlink:href="#Montserrat-Thin-25" x="65.199997"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_15">
+      <path d="M 90 301.330549 
+L 648 301.330549 
+" clip-path="url(#p731d76a859)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mc1a27b48c4" x="90" y="301.330549" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- 5% -->
+      <g transform="translate(64.128437 306.524768) scale(0.14 -0.14)">
+       <use xlink:href="#Montserrat-Thin-35"/>
+       <use xlink:href="#Montserrat-Thin-25" x="54.799988"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_17">
+      <path d="M 90 230.527027 
+L 648 230.527027 
+" clip-path="url(#p731d76a859)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mc1a27b48c4" x="90" y="230.527027" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- 10% -->
+      <g transform="translate(57.883125 235.721246) scale(0.14 -0.14)">
+       <use xlink:href="#Montserrat-Thin-31"/>
+       <use xlink:href="#Montserrat-Thin-30" x="34.199997"/>
+       <use xlink:href="#Montserrat-Thin-25" x="99.399994"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_19">
+      <path d="M 90 159.723506 
+L 648 159.723506 
+" clip-path="url(#p731d76a859)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#mc1a27b48c4" x="90" y="159.723506" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- 15% -->
+      <g transform="translate(59.34 164.917725) scale(0.14 -0.14)">
+       <use xlink:href="#Montserrat-Thin-31"/>
+       <use xlink:href="#Montserrat-Thin-35" x="34.199997"/>
+       <use xlink:href="#Montserrat-Thin-25" x="88.999985"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_21">
+      <path d="M 90 88.919985 
+L 648 88.919985 
+" clip-path="url(#p731d76a859)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#mc1a27b48c4" x="90" y="88.919985" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <!-- 20% -->
+      <g transform="translate(54.901562 94.114203) scale(0.14 -0.14)">
+       <use xlink:href="#Montserrat-Thin-32"/>
+       <use xlink:href="#Montserrat-Thin-30" x="55.499985"/>
+       <use xlink:href="#Montserrat-Thin-25" x="120.699982"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_23">
+    <path d="M 115.363636 280.034936 
+L 161.479339 279.950662 
+L 207.595041 275.92507 
+L 253.710744 273.066651 
+L 299.826446 264.542296 
+L 345.942149 257.447116 
+L 392.057851 248.09468 
+L 438.173554 229.780673 
+L 484.289256 193.990304 
+L 530.404959 158.698945 
+L 576.520661 115.033164 
+L 622.636364 66.96 
+" clip-path="url(#p731d76a859)" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="mf4af85b9f2" d="M -3 3 
+L 3 3 
+L 3 -3 
+L -3 -3 
+z
+" style="stroke: #1f77b4; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p731d76a859)">
+     <use xlink:href="#mf4af85b9f2" x="115.363636" y="280.034936" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="161.479339" y="279.950662" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="207.595041" y="275.92507" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="253.710744" y="273.066651" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="299.826446" y="264.542296" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="345.942149" y="257.447116" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="392.057851" y="248.09468" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="438.173554" y="229.780673" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="484.289256" y="193.990304" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="530.404959" y="158.698945" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="576.520661" y="115.033164" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     <use xlink:href="#mf4af85b9f2" x="622.636364" y="66.96" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_24">
+    <path d="M 115.363636 338.845226 
+L 161.479339 336.408372 
+L 207.595041 333.761695 
+L 253.710744 332.618414 
+L 299.826446 329.245253 
+L 345.942149 322.903497 
+L 392.057851 316.637928 
+L 438.173554 307.8748 
+L 484.289256 289.327182 
+L 530.404959 274.211413 
+L 576.520661 256.114439 
+L 622.636364 232.705597 
+" clip-path="url(#p731d76a859)" style="fill: none; stroke: #ff7f0e; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m871c0f538a" d="M 0 -4 
+L -3.804226 -1.236068 
+L -2.351141 3.236068 
+L 2.351141 3.236068 
+L 3.804226 -1.236068 
+z
+" style="stroke: #ff7f0e; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p731d76a859)">
+     <use xlink:href="#m871c0f538a" x="115.363636" y="338.845226" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="161.479339" y="336.408372" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="207.595041" y="333.761695" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="253.710744" y="332.618414" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="299.826446" y="329.245253" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="345.942149" y="322.903497" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="392.057851" y="316.637928" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="438.173554" y="307.8748" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="484.289256" y="289.327182" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="530.404959" y="274.211413" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="576.520661" y="256.114439" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     <use xlink:href="#m871c0f538a" x="622.636364" y="232.705597" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_25">
+    <path d="M 115.363636 369.36 
+L 161.479339 368.987247 
+L 207.595041 369.16809 
+L 253.710744 367.496083 
+L 299.826446 366.957834 
+L 345.942149 366.602545 
+L 392.057851 367.907543 
+L 438.173554 368.675356 
+L 484.289256 367.957407 
+L 530.404959 368.144629 
+L 576.520661 365.649589 
+L 622.636364 362.722648 
+" clip-path="url(#p731d76a859)" style="fill: none; stroke: #2ca02c; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m099d163f4a" d="M 0 -3 
+L -2.598076 -1.5 
+L -2.598076 1.5 
+L -0 3 
+L 2.598076 1.5 
+L 2.598076 -1.5 
+z
+" style="stroke: #2ca02c; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p731d76a859)">
+     <use xlink:href="#m099d163f4a" x="115.363636" y="369.36" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="161.479339" y="368.987247" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="207.595041" y="369.16809" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="253.710744" y="367.496083" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="299.826446" y="366.957834" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="345.942149" y="366.602545" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="392.057851" y="367.907543" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="438.173554" y="368.675356" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="484.289256" y="367.957407" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="530.404959" y="368.144629" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="576.520661" y="365.649589" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     <use xlink:href="#m099d163f4a" x="622.636364" y="362.722648" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 90 384.48 
+L 90 51.84 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 648 384.48 
+L 648 51.84 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 90 384.48 
+L 648 384.48 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 90 51.84 
+L 648 51.84 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_18">
+    <!-- Mosty v STS 5, 6, a 7 v priebehu rokov -->
+    <g transform="translate(191.49375 45.84) scale(0.2 -0.2)">
+     <defs>
+      <path id="Montserrat-Thin-4d" d="M 851 0 
+L 851 4480 
+L 960 4480 
+L 3091 755 
+L 3034 755 
+L 5158 4480 
+L 5267 4480 
+L 5267 0 
+L 5139 0 
+L 5139 4294 
+L 5190 4294 
+L 3098 634 
+L 3021 634 
+L 922 4294 
+L 979 4294 
+L 979 0 
+L 851 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-6f" d="M 1952 -19 
+Q 1491 -19 1129 195 
+Q 768 410 557 790 
+Q 346 1171 346 1658 
+Q 346 2150 557 2524 
+Q 768 2899 1129 3113 
+Q 1491 3328 1952 3328 
+Q 2413 3328 2777 3113 
+Q 3142 2899 3350 2524 
+Q 3558 2150 3558 1658 
+Q 3558 1171 3350 790 
+Q 3142 410 2777 195 
+Q 2413 -19 1952 -19 
+z
+M 1952 102 
+Q 2374 102 2710 300 
+Q 3046 499 3238 851 
+Q 3430 1203 3430 1658 
+Q 3430 2118 3238 2467 
+Q 3046 2816 2710 3011 
+Q 2374 3206 1952 3206 
+Q 1530 3206 1197 3011 
+Q 864 2816 669 2467 
+Q 474 2118 474 1658 
+Q 474 1203 669 851 
+Q 864 499 1197 300 
+Q 1530 102 1952 102 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-73" d="M 1498 -19 
+Q 1094 -19 742 109 
+Q 390 237 205 435 
+L 282 538 
+Q 461 365 781 233 
+Q 1101 102 1498 102 
+Q 2086 102 2342 307 
+Q 2598 512 2598 838 
+Q 2598 1075 2476 1212 
+Q 2355 1350 2153 1424 
+Q 1952 1498 1709 1542 
+Q 1466 1587 1222 1638 
+Q 979 1690 777 1782 
+Q 576 1875 454 2038 
+Q 333 2202 333 2477 
+Q 333 2701 454 2893 
+Q 576 3085 835 3206 
+Q 1094 3328 1504 3328 
+Q 1811 3328 2112 3235 
+Q 2413 3142 2598 2989 
+L 2522 2886 
+Q 2323 3046 2054 3126 
+Q 1786 3206 1504 3206 
+Q 960 3206 713 2995 
+Q 467 2784 467 2477 
+Q 467 2234 588 2090 
+Q 710 1946 912 1869 
+Q 1114 1792 1357 1747 
+Q 1600 1702 1840 1651 
+Q 2080 1600 2281 1510 
+Q 2483 1421 2604 1264 
+Q 2726 1107 2726 838 
+Q 2726 589 2592 393 
+Q 2458 198 2186 89 
+Q 1914 -19 1498 -19 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-74" d="M 1587 -19 
+Q 1197 -19 992 205 
+Q 787 429 787 794 
+L 787 4032 
+L 915 4032 
+L 915 826 
+Q 915 474 1088 288 
+Q 1261 102 1594 102 
+Q 1926 102 2144 307 
+L 2234 218 
+Q 2118 96 1942 38 
+Q 1766 -19 1587 -19 
+z
+M 147 3187 
+L 147 3309 
+L 2035 3309 
+L 2035 3187 
+L 147 3187 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-79" d="M 518 -1261 
+Q 301 -1261 118 -1187 
+Q -64 -1114 -198 -966 
+L -102 -864 
+Q 32 -1005 179 -1072 
+Q 326 -1139 525 -1139 
+Q 768 -1139 960 -1001 
+Q 1152 -864 1325 -493 
+L 1568 45 
+L 1600 90 
+L 3066 3309 
+L 3213 3309 
+L 1453 -531 
+Q 1331 -800 1187 -960 
+Q 1043 -1120 880 -1190 
+Q 717 -1261 518 -1261 
+z
+M 1594 -70 
+L 38 3309 
+L 186 3309 
+L 1651 90 
+L 1594 -70 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-20" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-76" d="M 1562 0 
+L 38 3309 
+L 186 3309 
+L 1651 90 
+L 1600 90 
+L 3066 3309 
+L 3213 3309 
+L 1690 0 
+L 1562 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-53" d="M 1946 -19 
+Q 1459 -19 1027 160 
+Q 595 339 371 614 
+L 461 698 
+Q 672 448 1072 275 
+Q 1472 102 1939 102 
+Q 2426 102 2736 236 
+Q 3046 371 3196 598 
+Q 3347 826 3347 1101 
+Q 3347 1421 3193 1616 
+Q 3040 1811 2784 1923 
+Q 2528 2035 2227 2108 
+Q 1926 2182 1622 2259 
+Q 1318 2336 1062 2461 
+Q 806 2586 652 2803 
+Q 499 3021 499 3373 
+Q 499 3667 656 3923 
+Q 813 4179 1142 4339 
+Q 1472 4499 1997 4499 
+Q 2355 4499 2704 4387 
+Q 3053 4275 3296 4090 
+L 3226 3987 
+Q 2957 4186 2630 4282 
+Q 2304 4378 2003 4378 
+Q 1536 4378 1229 4240 
+Q 922 4102 774 3875 
+Q 627 3648 627 3366 
+Q 627 3040 780 2845 
+Q 934 2650 1190 2538 
+Q 1446 2426 1750 2352 
+Q 2054 2278 2355 2198 
+Q 2656 2118 2912 1993 
+Q 3168 1869 3321 1657 
+Q 3475 1446 3475 1101 
+Q 3475 806 3315 550 
+Q 3155 294 2816 137 
+Q 2477 -19 1946 -19 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-54" d="M 1690 0 
+L 1690 4358 
+L 26 4358 
+L 26 4480 
+L 3482 4480 
+L 3482 4358 
+L 1818 4358 
+L 1818 0 
+L 1690 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-2c" d="M 397 -896 
+L 595 51 
+L 595 -19 
+Q 518 -19 467 32 
+Q 416 83 416 147 
+Q 416 218 464 266 
+Q 512 314 582 314 
+Q 659 314 704 259 
+Q 749 205 749 147 
+Q 749 115 745 83 
+Q 742 51 736 25 
+Q 730 0 723 -38 
+L 512 -896 
+L 397 -896 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-61" d="M 2848 0 
+L 2848 787 
+L 2848 896 
+L 2848 2163 
+Q 2848 2682 2579 2944 
+Q 2310 3206 1798 3206 
+Q 1427 3206 1120 3078 
+Q 813 2950 595 2746 
+L 506 2835 
+Q 742 3059 1081 3193 
+Q 1421 3328 1792 3328 
+Q 2368 3328 2672 3033 
+Q 2976 2739 2976 2170 
+L 2976 0 
+L 2848 0 
+z
+M 1587 -19 
+Q 1216 -19 953 96 
+Q 691 211 553 422 
+Q 416 634 416 909 
+Q 416 1146 528 1347 
+Q 640 1549 896 1673 
+Q 1152 1798 1594 1798 
+L 2918 1798 
+L 2918 1677 
+L 1587 1677 
+Q 1024 1677 784 1462 
+Q 544 1248 544 915 
+Q 544 544 819 323 
+Q 1094 102 1587 102 
+Q 2067 102 2377 323 
+Q 2688 544 2848 947 
+L 2912 864 
+Q 2778 467 2442 224 
+Q 2106 -19 1587 -19 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-70" d="M 2342 -19 
+Q 1888 -19 1529 195 
+Q 1171 410 963 787 
+Q 755 1165 755 1651 
+Q 755 2144 963 2521 
+Q 1171 2899 1529 3113 
+Q 1888 3328 2342 3328 
+Q 2797 3328 3161 3113 
+Q 3526 2899 3737 2521 
+Q 3949 2144 3949 1651 
+Q 3949 1165 3737 787 
+Q 3526 410 3161 195 
+Q 2797 -19 2342 -19 
+z
+M 736 -1242 
+L 736 3309 
+L 864 3309 
+L 864 2093 
+L 800 1645 
+L 864 1197 
+L 864 -1242 
+L 736 -1242 
+z
+M 2342 102 
+Q 2765 102 3101 297 
+Q 3437 493 3629 845 
+Q 3821 1197 3821 1651 
+Q 3821 2112 3629 2461 
+Q 3437 2810 3101 3008 
+Q 2765 3206 2342 3206 
+Q 1920 3206 1584 3008 
+Q 1248 2810 1056 2461 
+Q 864 2112 864 1651 
+Q 864 1197 1056 845 
+Q 1248 493 1584 297 
+Q 1920 102 2342 102 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-72" d="M 736 0 
+L 736 3309 
+L 864 3309 
+L 864 2394 
+L 851 2413 
+Q 986 2848 1322 3088 
+Q 1658 3328 2163 3328 
+L 2163 3200 
+Q 2157 3200 2147 3200 
+Q 2138 3200 2125 3200 
+Q 1530 3200 1197 2819 
+Q 864 2438 864 1779 
+L 864 0 
+L 736 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-69" d="M 736 0 
+L 736 3309 
+L 864 3309 
+L 864 0 
+L 736 0 
+z
+M 800 4224 
+Q 736 4224 685 4275 
+Q 634 4326 634 4390 
+Q 634 4461 685 4509 
+Q 736 4557 800 4557 
+Q 870 4557 918 4509 
+Q 966 4461 966 4390 
+Q 966 4326 918 4275 
+Q 870 4224 800 4224 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-65" d="M 1997 -19 
+Q 1517 -19 1145 195 
+Q 774 410 560 790 
+Q 346 1171 346 1658 
+Q 346 2150 544 2524 
+Q 742 2899 1091 3113 
+Q 1440 3328 1875 3328 
+Q 2310 3328 2659 3120 
+Q 3008 2912 3209 2541 
+Q 3411 2170 3411 1690 
+Q 3411 1683 3411 1676 
+Q 3411 1670 3411 1658 
+L 416 1658 
+L 416 1779 
+L 3341 1779 
+L 3290 1683 
+Q 3290 2118 3104 2464 
+Q 2918 2810 2601 3008 
+Q 2285 3206 1875 3206 
+Q 1472 3206 1152 3008 
+Q 832 2810 649 2464 
+Q 467 2118 467 1683 
+L 467 1658 
+Q 467 1203 665 851 
+Q 864 499 1209 300 
+Q 1555 102 1997 102 
+Q 2330 102 2627 230 
+Q 2925 358 3123 614 
+L 3213 525 
+Q 2995 256 2675 118 
+Q 2355 -19 1997 -19 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-62" d="M 2342 -19 
+Q 1888 -19 1529 195 
+Q 1171 410 963 790 
+Q 755 1171 755 1658 
+Q 755 2150 963 2524 
+Q 1171 2899 1529 3113 
+Q 1888 3328 2342 3328 
+Q 2797 3328 3161 3113 
+Q 3526 2899 3737 2524 
+Q 3949 2150 3949 1658 
+Q 3949 1171 3737 790 
+Q 3526 410 3161 195 
+Q 2797 -19 2342 -19 
+z
+M 736 0 
+L 736 4749 
+L 864 4749 
+L 864 2112 
+L 800 1664 
+L 864 1216 
+L 864 0 
+L 736 0 
+z
+M 2342 102 
+Q 2765 102 3101 300 
+Q 3437 499 3629 851 
+Q 3821 1203 3821 1658 
+Q 3821 2118 3629 2467 
+Q 3437 2816 3101 3011 
+Q 2765 3206 2342 3206 
+Q 1920 3206 1584 3011 
+Q 1248 2816 1056 2467 
+Q 864 2118 864 1658 
+Q 864 1203 1056 851 
+Q 1248 499 1584 300 
+Q 1920 102 2342 102 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-68" d="M 2253 3328 
+Q 2662 3328 2956 3171 
+Q 3251 3014 3414 2707 
+Q 3578 2400 3578 1952 
+L 3578 0 
+L 3450 0 
+L 3450 1952 
+Q 3450 2566 3136 2886 
+Q 2822 3206 2259 3206 
+Q 1824 3206 1510 3030 
+Q 1197 2854 1030 2537 
+Q 864 2221 864 1798 
+L 864 0 
+L 736 0 
+L 736 4749 
+L 864 4749 
+L 864 2368 
+L 851 2387 
+Q 998 2822 1356 3075 
+Q 1715 3328 2253 3328 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-75" d="M 2054 -19 
+Q 1632 -19 1328 137 
+Q 1024 294 861 601 
+Q 698 909 698 1357 
+L 698 3309 
+L 826 3309 
+L 826 1357 
+Q 826 742 1146 422 
+Q 1466 102 2048 102 
+Q 2464 102 2765 278 
+Q 3066 454 3226 774 
+Q 3386 1094 3386 1510 
+L 3386 3309 
+L 3514 3309 
+L 3514 0 
+L 3386 0 
+L 3386 934 
+L 3398 915 
+Q 3258 486 2912 233 
+Q 2566 -19 2054 -19 
+z
+" transform="scale(0.015625)"/>
+      <path id="Montserrat-Thin-6b" d="M 819 986 
+L 819 1139 
+L 3200 3309 
+L 3386 3309 
+L 1946 1990 
+L 1843 1914 
+L 819 986 
+z
+M 736 0 
+L 736 4749 
+L 864 4749 
+L 864 0 
+L 736 0 
+z
+M 3366 0 
+L 1818 1946 
+L 1920 2022 
+L 3533 0 
+L 3366 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Montserrat-Thin-4d"/>
+     <use xlink:href="#Montserrat-Thin-6f" x="95.599991"/>
+     <use xlink:href="#Montserrat-Thin-73" x="156.599976"/>
+     <use xlink:href="#Montserrat-Thin-74" x="202.899963"/>
+     <use xlink:href="#Montserrat-Thin-79" x="241.699951"/>
+     <use xlink:href="#Montserrat-Thin-20" x="292.499939"/>
+     <use xlink:href="#Montserrat-Thin-76" x="317.499924"/>
+     <use xlink:href="#Montserrat-Thin-20" x="368.299911"/>
+     <use xlink:href="#Montserrat-Thin-53" x="393.299896"/>
+     <use xlink:href="#Montserrat-Thin-54" x="453.399887"/>
+     <use xlink:href="#Montserrat-Thin-53" x="508.199875"/>
+     <use xlink:href="#Montserrat-Thin-20" x="568.299866"/>
+     <use xlink:href="#Montserrat-Thin-35" x="593.29985"/>
+     <use xlink:href="#Montserrat-Thin-2c" x="648.099838"/>
+     <use xlink:href="#Montserrat-Thin-20" x="666.299835"/>
+     <use xlink:href="#Montserrat-Thin-36" x="691.29982"/>
+     <use xlink:href="#Montserrat-Thin-2c" x="750.499817"/>
+     <use xlink:href="#Montserrat-Thin-20" x="768.699814"/>
+     <use xlink:href="#Montserrat-Thin-61" x="793.699799"/>
+     <use xlink:href="#Montserrat-Thin-20" x="851.099792"/>
+     <use xlink:href="#Montserrat-Thin-37" x="876.099777"/>
+     <use xlink:href="#Montserrat-Thin-20" x="933.099762"/>
+     <use xlink:href="#Montserrat-Thin-76" x="958.099747"/>
+     <use xlink:href="#Montserrat-Thin-20" x="1008.899734"/>
+     <use xlink:href="#Montserrat-Thin-70" x="1033.899719"/>
+     <use xlink:href="#Montserrat-Thin-72" x="1100.99971"/>
+     <use xlink:href="#Montserrat-Thin-69" x="1139.299698"/>
+     <use xlink:href="#Montserrat-Thin-65" x="1164.299683"/>
+     <use xlink:href="#Montserrat-Thin-62" x="1222.99968"/>
+     <use xlink:href="#Montserrat-Thin-65" x="1290.09967"/>
+     <use xlink:href="#Montserrat-Thin-68" x="1348.799667"/>
+     <use xlink:href="#Montserrat-Thin-75" x="1415.599655"/>
+     <use xlink:href="#Montserrat-Thin-20" x="1481.999649"/>
+     <use xlink:href="#Montserrat-Thin-72" x="1506.999634"/>
+     <use xlink:href="#Montserrat-Thin-6f" x="1545.299622"/>
+     <use xlink:href="#Montserrat-Thin-6b" x="1606.299606"/>
+     <use xlink:href="#Montserrat-Thin-6f" x="1663.299591"/>
+     <use xlink:href="#Montserrat-Thin-76" x="1724.299576"/>
+    </g>
+   </g>
+   <g id="legend_1">
+    <g id="patch_7">
+     <path d="M 100.5 128.867344 
+L 247.064062 128.867344 
+Q 250.064062 128.867344 250.064062 125.867344 
+L 250.064062 62.34 
+Q 250.064062 59.34 247.064062 59.34 
+L 100.5 59.34 
+Q 97.5 59.34 97.5 62.34 
+L 97.5 125.867344 
+Q 97.5 128.867344 100.5 128.867344 
+z
+" style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="line2d_26">
+     <path d="M 103.5 71.220469 
+L 118.5 71.220469 
+L 133.5 71.220469 
+" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#mf4af85b9f2" x="118.5" y="71.220469" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_19">
+     <!-- zlý stav -->
+     <g transform="translate(145.5 76.470469) scale(0.15 -0.15)">
+      <defs>
+       <path id="Montserrat-Thin-7a" d="M 294 0 
+L 294 96 
+L 2656 3226 
+L 2707 3187 
+L 326 3187 
+L 326 3309 
+L 2803 3309 
+L 2803 3213 
+L 442 83 
+L 365 122 
+L 2835 122 
+L 2835 0 
+L 294 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="Montserrat-Thin-6c" d="M 736 0 
+L 736 4749 
+L 864 4749 
+L 864 0 
+L 736 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="Montserrat-Thin-fd" d="M 518 -1261 
+Q 301 -1261 118 -1187 
+Q -64 -1114 -198 -966 
+L -102 -864 
+Q 32 -1005 179 -1072 
+Q 326 -1139 525 -1139 
+Q 768 -1139 960 -1001 
+Q 1152 -864 1325 -493 
+L 1568 45 
+L 1600 90 
+L 3066 3309 
+L 3213 3309 
+L 1453 -531 
+Q 1331 -800 1187 -960 
+Q 1043 -1120 880 -1190 
+Q 717 -1261 518 -1261 
+z
+M 1594 -70 
+L 38 3309 
+L 186 3309 
+L 1651 90 
+L 1594 -70 
+z
+M 1240 3885 
+L 2136 4589 
+L 2392 4589 
+L 1432 3885 
+L 1240 3885 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#Montserrat-Thin-7a"/>
+      <use xlink:href="#Montserrat-Thin-6c" x="49.099991"/>
+      <use xlink:href="#Montserrat-Thin-fd" x="74.099976"/>
+      <use xlink:href="#Montserrat-Thin-20" x="124.899963"/>
+      <use xlink:href="#Montserrat-Thin-73" x="149.899948"/>
+      <use xlink:href="#Montserrat-Thin-74" x="196.199936"/>
+      <use xlink:href="#Montserrat-Thin-61" x="234.999924"/>
+      <use xlink:href="#Montserrat-Thin-76" x="292.399918"/>
+     </g>
+    </g>
+    <g id="line2d_27">
+     <path d="M 103.5 93.075937 
+L 118.5 93.075937 
+L 133.5 93.075937 
+" style="fill: none; stroke: #ff7f0e; stroke-width: 1.5; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#m871c0f538a" x="118.5" y="93.075937" style="fill: #ff7f0e; stroke: #ff7f0e; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_20">
+     <!-- veľmi zlý stav -->
+     <g transform="translate(145.5 98.325937) scale(0.15 -0.15)">
+      <defs>
+       <path id="Montserrat-Thin-13e" d="M 736 0 
+L 736 4749 
+L 864 4749 
+L 864 0 
+L 736 0 
+z
+M 1504 3712 
+L 1504 4864 
+L 1632 4864 
+L 1619 3712 
+L 1504 3712 
+z
+" transform="scale(0.015625)"/>
+       <path id="Montserrat-Thin-6d" d="M 4851 3328 
+Q 5248 3328 5536 3171 
+Q 5824 3014 5981 2707 
+Q 6138 2400 6138 1952 
+L 6138 0 
+L 6010 0 
+L 6010 1952 
+Q 6010 2566 5706 2886 
+Q 5402 3206 4858 3206 
+Q 4435 3206 4131 3030 
+Q 3827 2854 3664 2537 
+Q 3501 2221 3501 1798 
+L 3501 0 
+L 3373 0 
+L 3373 1952 
+Q 3373 2566 3069 2886 
+Q 2765 3206 2221 3206 
+Q 1798 3206 1494 3030 
+Q 1190 2854 1027 2537 
+Q 864 2221 864 1798 
+L 864 0 
+L 736 0 
+L 736 3309 
+L 864 3309 
+L 864 2374 
+L 851 2394 
+Q 992 2822 1344 3075 
+Q 1696 3328 2214 3328 
+Q 2726 3328 3059 3069 
+Q 3392 2810 3475 2298 
+L 3456 2304 
+Q 3578 2758 3939 3043 
+Q 4301 3328 4851 3328 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#Montserrat-Thin-76"/>
+      <use xlink:href="#Montserrat-Thin-65" x="50.799988"/>
+      <use xlink:href="#Montserrat-Thin-13e" x="109.499985"/>
+      <use xlink:href="#Montserrat-Thin-6d" x="134.499969"/>
+      <use xlink:href="#Montserrat-Thin-69" x="241.299957"/>
+      <use xlink:href="#Montserrat-Thin-20" x="266.299942"/>
+      <use xlink:href="#Montserrat-Thin-7a" x="291.299927"/>
+      <use xlink:href="#Montserrat-Thin-6c" x="340.399918"/>
+      <use xlink:href="#Montserrat-Thin-fd" x="365.399902"/>
+      <use xlink:href="#Montserrat-Thin-20" x="416.19989"/>
+      <use xlink:href="#Montserrat-Thin-73" x="441.199875"/>
+      <use xlink:href="#Montserrat-Thin-74" x="487.499863"/>
+      <use xlink:href="#Montserrat-Thin-61" x="526.29985"/>
+      <use xlink:href="#Montserrat-Thin-76" x="583.699844"/>
+     </g>
+    </g>
+    <g id="line2d_28">
+     <path d="M 103.5 114.661875 
+L 118.5 114.661875 
+L 133.5 114.661875 
+" style="fill: none; stroke: #2ca02c; stroke-width: 1.5; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#m099d163f4a" x="118.5" y="114.661875" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_21">
+     <!-- havarijný stav -->
+     <g transform="translate(145.5 119.911875) scale(0.15 -0.15)">
+      <defs>
+       <path id="Montserrat-Thin-6a" d="M 115 -1261 
+Q -77 -1261 -256 -1203 
+Q -435 -1146 -550 -1024 
+L -461 -934 
+Q -243 -1139 109 -1139 
+Q 429 -1139 598 -953 
+Q 768 -768 768 -416 
+L 768 3309 
+L 896 3309 
+L 896 -448 
+Q 896 -813 694 -1037 
+Q 493 -1261 115 -1261 
+z
+M 832 4224 
+Q 768 4224 717 4275 
+Q 666 4326 666 4390 
+Q 666 4461 717 4509 
+Q 768 4557 832 4557 
+Q 902 4557 950 4509 
+Q 998 4461 998 4390 
+Q 998 4326 950 4275 
+Q 902 4224 832 4224 
+z
+" transform="scale(0.015625)"/>
+       <path id="Montserrat-Thin-6e" d="M 2253 3328 
+Q 2662 3328 2956 3171 
+Q 3251 3014 3414 2707 
+Q 3578 2400 3578 1952 
+L 3578 0 
+L 3450 0 
+L 3450 1952 
+Q 3450 2566 3136 2886 
+Q 2822 3206 2259 3206 
+Q 1824 3206 1510 3030 
+Q 1197 2854 1030 2537 
+Q 864 2221 864 1798 
+L 864 0 
+L 736 0 
+L 736 3309 
+L 864 3309 
+L 864 2368 
+L 851 2387 
+Q 998 2822 1356 3075 
+Q 1715 3328 2253 3328 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#Montserrat-Thin-68"/>
+      <use xlink:href="#Montserrat-Thin-61" x="66.799988"/>
+      <use xlink:href="#Montserrat-Thin-76" x="124.199982"/>
+      <use xlink:href="#Montserrat-Thin-61" x="174.999969"/>
+      <use xlink:href="#Montserrat-Thin-72" x="232.399963"/>
+      <use xlink:href="#Montserrat-Thin-69" x="270.699951"/>
+      <use xlink:href="#Montserrat-Thin-6a" x="295.699936"/>
+      <use xlink:href="#Montserrat-Thin-6e" x="321.199921"/>
+      <use xlink:href="#Montserrat-Thin-fd" x="387.999908"/>
+      <use xlink:href="#Montserrat-Thin-20" x="438.799896"/>
+      <use xlink:href="#Montserrat-Thin-73" x="463.799881"/>
+      <use xlink:href="#Montserrat-Thin-74" x="510.099869"/>
+      <use xlink:href="#Montserrat-Thin-61" x="548.899857"/>
+      <use xlink:href="#Montserrat-Thin-76" x="606.29985"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p731d76a859">
+   <rect x="90" y="51.84" width="558" height="332.64"/>
+  </clipPath>
+ </defs>
+</svg>
