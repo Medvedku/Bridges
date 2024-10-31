@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-10-30T15:43:41.789Z</time></metadata>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="47.986371" lon="17.613397"><ele>114.0</ele></trkpt>
+<trkpt lat="47.985119" lon="17.612756"><ele>113.2</ele></trkpt>
+<trkpt lat="47.983844" lon="17.612063"><ele>115.9</ele></trkpt>
+<trkpt lat="47.983383" lon="17.611834"><ele>114.2</ele></trkpt>
+<trkpt lat="47.982111" lon="17.611187"><ele>112.8</ele></trkpt>
+<trkpt lat="47.980533" lon="17.610367"><ele>112.2</ele></trkpt>
+<trkpt lat="47.980472" lon="17.610343"><ele>112.3</ele></trkpt>
+<trkpt lat="47.980036" lon="17.610264"><ele>113.3</ele></trkpt>
+<trkpt lat="47.978332" lon="17.609945"><ele>114.4</ele></trkpt>
+<trkpt lat="47.977390" lon="17.609749"><ele>114.7</ele></trkpt>
+<trkpt lat="47.976382" lon="17.609559"><ele>114.9</ele></trkpt>
+<trkpt lat="47.976013" lon="17.609536"><ele>114.8</ele></trkpt>
+<trkpt lat="47.975518" lon="17.609454"><ele>114.3</ele></trkpt>
+<trkpt lat="47.975199" lon="17.609392"><ele>113.9</ele></trkpt>
+<trkpt lat="47.974863" lon="17.609300"><ele>113.6</ele></trkpt>
+<trkpt lat="47.974504" lon="17.609197"><ele>113.5</ele></trkpt>
+<trkpt lat="47.974081" lon="17.609052"><ele>113.3</ele></trkpt>
+<trkpt lat="47.973781" lon="17.608903"><ele>113.4</ele></trkpt>
+<trkpt lat="47.973492" lon="17.608734"><ele>113.5</ele></trkpt>
+<trkpt lat="47.973027" lon="17.608428"><ele>113.6</ele></trkpt>
+<trkpt lat="47.972848" lon="17.608285"><ele>113.7</ele></trkpt>
+<trkpt lat="47.972734" lon="17.608167"><ele>113.7</ele></trkpt>
+<trkpt lat="47.972626" lon="17.608030"><ele>113.8</ele></trkpt>
+<trkpt lat="47.972558" lon="17.607925"><ele>113.8</ele></trkpt>
+<trkpt lat="47.972500" lon="17.607808"><ele>113.8</ele></trkpt>
+<trkpt lat="47.972451" lon="17.607683"><ele>113.8</ele></trkpt>
+<trkpt lat="47.972370" lon="17.607426"><ele>113.9</ele></trkpt>
+<trkpt lat="47.972286" lon="17.607099"><ele>114.0</ele></trkpt>
+<trkpt lat="47.972069" lon="17.606377"><ele>114.1</ele></trkpt>
+<trkpt lat="47.971739" lon="17.605358"><ele>114.3</ele></trkpt>
+<trkpt lat="47.971643" lon="17.605103"><ele>114.4</ele></trkpt>
+<trkpt lat="47.971529" lon="17.604834"><ele>114.5</ele></trkpt>
+<trkpt lat="47.971088" lon="17.603919"><ele>114.7</ele></trkpt>
+<trkpt lat="47.970947" lon="17.603673"><ele>114.8</ele></trkpt>
+<trkpt lat="47.970639" lon="17.603260"><ele>114.9</ele></trkpt>
+<trkpt lat="47.970292" lon="17.603040"><ele>115.0</ele></trkpt>
+<trkpt lat="47.969791" lon="17.602874"><ele>114.9</ele></trkpt>
+<trkpt lat="47.969540" lon="17.602877"><ele>114.9</ele></trkpt>
+<trkpt lat="47.969398" lon="17.602895"><ele>114.9</ele></trkpt>
+<trkpt lat="47.966374" lon="17.603452"><ele>113.0</ele></trkpt>
+<trkpt lat="47.966038" lon="17.603521"><ele>113.0</ele></trkpt>
+<trkpt lat="47.961301" lon="17.604380"><ele>110.2</ele></trkpt>
+<trkpt lat="47.960707" lon="17.604442"><ele>110.3</ele></trkpt>
+<trkpt lat="47.960242" lon="17.604464"><ele>110.3</ele></trkpt>
+<trkpt lat="47.959806" lon="17.604420"><ele>110.3</ele></trkpt>
+<trkpt lat="47.959381" lon="17.604346"><ele>110.3</ele></trkpt>
+<trkpt lat="47.959232" lon="17.604323"><ele>110.7</ele></trkpt>
+<trkpt lat="47.958895" lon="17.604246"><ele>111.0</ele></trkpt>
+<trkpt lat="47.958253" lon="17.604033"><ele>111.3</ele></trkpt>
+<trkpt lat="47.957924" lon="17.603899"><ele>111.5</ele></trkpt>
+<trkpt lat="47.949852" lon="17.600257"><ele>114.8</ele></trkpt>
+<trkpt lat="47.947199" lon="17.599071"><ele>115.6</ele></trkpt>
+<trkpt lat="47.946671" lon="17.598846"><ele>115.2</ele></trkpt>
+<trkpt lat="47.946027" lon="17.598495"><ele>114.8</ele></trkpt>
+<trkpt lat="47.945553" lon="17.598215"><ele>114.6</ele></trkpt>
+</trkseg></trk>
+</gpx>

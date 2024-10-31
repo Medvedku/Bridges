@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="main-svg"
+   width="266"
+   height="266"
+   viewBox="0 0 266 266"
+   version="1.1"
+   id="svg92"
+   sodipodi:docname="piechart.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview92"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050" />
+  <defs
+     id="defs-11a7bf" />
+  <path
+     class="surface"
+     d="M 133,133 V 0 a 133,133 0 0 1 131.33083,111.99493 z"
+     style="fill:#6a5acd;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path13" />
+  <path
+     class="surface"
+     d="M 133,133 24.06588,56.69563 A 133,133 0 0 1 133,0 Z"
+     style="fill:#aa32cd;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path15" />
+  <path
+     class="surface"
+     d="M 133,133 7.5254589,177.10374 A 133,133 0 0 1 24.06588,56.69563 Z"
+     style="fill:#ff6347;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path17" />
+  <path
+     class="surface"
+     d="M 133,133 56.91275,242.08588 A 133,133 0 0 1 7.5254589,177.10374 Z"
+     style="fill:#d45500;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path19" />
+  <path
+     class="surface"
+     d="m 133,133 0.66866,132.99832 A 133,133 0 0 1 56.91275,242.08588 Z"
+     style="fill:#ff4500;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path21" />
+  <path
+     class="surface"
+     d="m 133,133 75.78222,109.29801 a 133,133 0 0 1 -75.11356,23.70031 z"
+     style="fill:#1e90ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path23" />
+  <path
+     class="surface"
+     d="m 133,133 122.98276,50.63834 a 133,133 0 0 1 -47.20054,58.65967 z"
+     style="fill:#ffd700;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path25" />
+  <path
+     class="surface"
+     d="m 133,133 131.33083,-21.00507 a 133,133 0 0 1 -8.34807,71.64341 z"
+     style="fill:#228b22;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path27" />
+  <defs
+     id="topdefs-11a7bf" />
+</svg>
