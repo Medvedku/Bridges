@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-09T18:54:18.255Z</time></metadata>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.201390" lon="17.323898"><ele>126.0</ele></trkpt>
+<trkpt lat="48.201299" lon="17.323949"><ele>125.0</ele></trkpt>
+<trkpt lat="48.201120" lon="17.322586"><ele>126.8</ele></trkpt>
+<trkpt lat="48.201044" lon="17.321917"><ele>126.8</ele></trkpt>
+<trkpt lat="48.200998" lon="17.321110"><ele>126.0</ele></trkpt>
+<trkpt lat="48.200871" lon="17.320865"><ele>126.0</ele></trkpt>
+<trkpt lat="48.200702" lon="17.320429"><ele>126.0</ele></trkpt>
+<trkpt lat="48.200576" lon="17.320164"><ele>126.1</ele></trkpt>
+<trkpt lat="48.200439" lon="17.319920"><ele>126.2</ele></trkpt>
+<trkpt lat="48.200344" lon="17.319778"><ele>126.3</ele></trkpt>
+<trkpt lat="48.200238" lon="17.319639"><ele>126.3</ele></trkpt>
+<trkpt lat="48.199999" lon="17.319376"><ele>126.5</ele></trkpt>
+<trkpt lat="48.199362" lon="17.318710"><ele>126.8</ele></trkpt>
+<trkpt lat="48.199134" lon="17.318407"><ele>126.9</ele></trkpt>
+<trkpt lat="48.199011" lon="17.318151"><ele>127.0</ele></trkpt>
+<trkpt lat="48.198957" lon="17.318002"><ele>127.0</ele></trkpt>
+<trkpt lat="48.198889" lon="17.317748"><ele>127.1</ele></trkpt>
+<trkpt lat="48.198832" lon="17.317496"><ele>127.2</ele></trkpt>
+<trkpt lat="48.198654" lon="17.316611"><ele>127.4</ele></trkpt>
+<trkpt lat="48.198393" lon="17.315146"><ele>127.2</ele></trkpt>
+<trkpt lat="48.197756" lon="17.311923"><ele>126.7</ele></trkpt>
+<trkpt lat="48.197200" lon="17.309215"><ele>126.4</ele></trkpt>
+<trkpt lat="48.197049" lon="17.308433"><ele>127.8</ele></trkpt>
+<trkpt lat="48.196839" lon="17.307430"><ele>128.1</ele></trkpt>
+<trkpt lat="48.196769" lon="17.307049"><ele>128.2</ele></trkpt>
+<trkpt lat="48.196735" lon="17.306732"><ele>128.2</ele></trkpt>
+<trkpt lat="48.196717" lon="17.306401"><ele>128.3</ele></trkpt>
+<trkpt lat="48.196720" lon="17.305518"><ele>128.1</ele></trkpt>
+<trkpt lat="48.196695" lon="17.305022"><ele>128.4</ele></trkpt>
+<trkpt lat="48.196665" lon="17.304633"><ele>128.6</ele></trkpt>
+<trkpt lat="48.196598" lon="17.304189"><ele>128.4</ele></trkpt>
+<trkpt lat="48.196346" lon="17.302930"><ele>128.0</ele></trkpt>
+<trkpt lat="48.196300" lon="17.302555"><ele>128.0</ele></trkpt>
+<trkpt lat="48.196137" lon="17.300250"><ele>127.7</ele></trkpt>
+<trkpt lat="48.196063" lon="17.298804"><ele>127.5</ele></trkpt>
+<trkpt lat="48.196049" lon="17.298643"><ele>127.6</ele></trkpt>
+<trkpt lat="48.195964" lon="17.298294"><ele>127.7</ele></trkpt>
+<trkpt lat="48.195888" lon="17.298089"><ele>127.8</ele></trkpt>
+<trkpt lat="48.195788" lon="17.297913"><ele>127.9</ele></trkpt>
+<trkpt lat="48.195644" lon="17.297717"><ele>128.0</ele></trkpt>
+<trkpt lat="48.195517" lon="17.297633"><ele>128.0</ele></trkpt>
+<trkpt lat="48.195376" lon="17.297585"><ele>128.1</ele></trkpt>
+<trkpt lat="48.195205" lon="17.297569"><ele>128.1</ele></trkpt>
+<trkpt lat="48.195088" lon="17.297571"><ele>127.8</ele></trkpt>
+<trkpt lat="48.194938" lon="17.297608"><ele>127.3</ele></trkpt>
+<trkpt lat="48.194674" lon="17.297708"><ele>126.5</ele></trkpt>
+<trkpt lat="48.194245" lon="17.297731"><ele>126.9</ele></trkpt>
+<trkpt lat="48.193987" lon="17.297649"><ele>127.4</ele></trkpt>
+<trkpt lat="48.193731" lon="17.297548"><ele>127.9</ele></trkpt>
+<trkpt lat="48.193210" lon="17.297284"><ele>128.2</ele></trkpt>
+<trkpt lat="48.193094" lon="17.297177"><ele>128.1</ele></trkpt>
+<trkpt lat="48.192980" lon="17.296998"><ele>128.0</ele></trkpt>
+<trkpt lat="48.192874" lon="17.296800"><ele>127.8</ele></trkpt>
+<trkpt lat="48.192586" lon="17.296193"><ele>127.4</ele></trkpt>
+</trkseg></trk>
+</gpx>
