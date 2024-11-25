@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T13:03:40.174Z</time></metadata>
+<rte>
+<rtept lat="48.361764" lon="19.572254"><desc>Continue onto 2664</desc><extensions><gh:distance>145.598</gh:distance><gh:time>14600</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.363069" lon="19.572396"><desc>Turn left onto Zavoda</desc><extensions><gh:distance>254.893</gh:distance><gh:time>47499</gh:time><gh:sign>-2</gh:sign></extensions></rtept>
+<rtept lat="48.364787" lon="19.570136"><desc>Turn right</desc><extensions><gh:distance>332</gh:distance><gh:time>74700</gh:time><gh:sign>2</gh:sign></extensions></rtept>
+<rtept lat="48.366452" lon="19.573821"><desc>Turn right onto Hlavná</desc><extensions><gh:distance>86.501</gh:distance><gh:time>11122</gh:time><gh:sign>2</gh:sign></extensions></rtept>
+<rtept lat="48.365804" lon="19.574469"><desc>Keep left onto Hlavná</desc><extensions><gh:distance>57.381</gh:distance><gh:time>7378</gh:time><gh:sign>-7</gh:sign></extensions></rtept>
+<rtept lat="48.365535" lon="19.575125"><desc>Continue onto Cintorínska</desc><extensions><gh:distance>160.667</gh:distance><gh:time>17882</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.365102" lon="19.577190"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.361764" lon="19.572254"><ele>245.6</ele></trkpt>
+<trkpt lat="48.362515" lon="19.572313"><ele>242.4</ele></trkpt>
+<trkpt lat="48.362857" lon="19.572352"><ele>242.2</ele></trkpt>
+<trkpt lat="48.363069" lon="19.572396"><ele>242.1</ele></trkpt>
+<trkpt lat="48.363084" lon="19.572324"><ele>242.2</ele></trkpt>
+<trkpt lat="48.363131" lon="19.572222"><ele>242.4</ele></trkpt>
+<trkpt lat="48.364097" lon="19.571006"><ele>242.2</ele></trkpt>
+<trkpt lat="48.364787" lon="19.570136"><ele>243.7</ele></trkpt>
+<trkpt lat="48.365115" lon="19.570706"><ele>242.6</ele></trkpt>
+<trkpt lat="48.365265" lon="19.571006"><ele>242.1</ele></trkpt>
+<trkpt lat="48.365308" lon="19.571123"><ele>241.9</ele></trkpt>
+<trkpt lat="48.365347" lon="19.571286"><ele>241.6</ele></trkpt>
+<trkpt lat="48.365475" lon="19.571824"><ele>242.1</ele></trkpt>
+<trkpt lat="48.365611" lon="19.572211"><ele>242.6</ele></trkpt>
+<trkpt lat="48.365825" lon="19.572603"><ele>243.2</ele></trkpt>
+<trkpt lat="48.366452" lon="19.573821"><ele>245.3</ele></trkpt>
+<trkpt lat="48.365804" lon="19.574469"><ele>246.0</ele></trkpt>
+<trkpt lat="48.365681" lon="19.574699"><ele>247.1</ele></trkpt>
+<trkpt lat="48.365602" lon="19.574894"><ele>248.0</ele></trkpt>
+<trkpt lat="48.365535" lon="19.575125"><ele>249.0</ele></trkpt>
+<trkpt lat="48.365346" lon="19.575755"><ele>249.7</ele></trkpt>
+<trkpt lat="48.365279" lon="19.576094"><ele>250.0</ele></trkpt>
+<trkpt lat="48.365210" lon="19.576649"><ele>250.6</ele></trkpt>
+<trkpt lat="48.365102" lon="19.577190"><ele>250.9</ele></trkpt>
+</trkseg></trk>
+</gpx>

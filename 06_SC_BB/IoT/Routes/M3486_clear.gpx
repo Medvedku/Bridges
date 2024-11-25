@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T13:22:23.574Z</time></metadata>
+<rte>
+<rtept lat="48.629979" lon="19.168702"><desc>Continue onto Veľkolúcka</desc><extensions><gh:distance>260.474</gh:distance><gh:time>30314</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.628381" lon="19.166218"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.629979" lon="19.168702"><ele>308.5</ele></trkpt>
+<trkpt lat="48.629908" lon="19.168440"><ele>308.0</ele></trkpt>
+<trkpt lat="48.629788" lon="19.168099"><ele>307.0</ele></trkpt>
+<trkpt lat="48.629705" lon="19.168043"><ele>306.9</ele></trkpt>
+<trkpt lat="48.629549" lon="19.167881"><ele>306.5</ele></trkpt>
+<trkpt lat="48.629443" lon="19.167761"><ele>306.2</ele></trkpt>
+<trkpt lat="48.628997" lon="19.167231"><ele>304.2</ele></trkpt>
+<trkpt lat="48.628800" lon="19.166997"><ele>303.9</ele></trkpt>
+<trkpt lat="48.628515" lon="19.166558"><ele>303.5</ele></trkpt>
+<trkpt lat="48.628398" lon="19.166269"><ele>303.1</ele></trkpt>
+<trkpt lat="48.628381" lon="19.166218"><ele>302.5</ele></trkpt>
+</trkseg></trk>
+</gpx>

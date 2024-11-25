@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T14:35:56.090Z</time></metadata>
+<rte>
+<rtept lat="48.384127" lon="20.020570"><desc>Continue onto Francisciho</desc><extensions><gh:distance>336.128</gh:distance><gh:time>75628</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.386350" lon="20.017488"><desc>Turn right onto K. Mikszátha</desc><extensions><gh:distance>556.232</gh:distance><gh:time>125151</gh:time><gh:sign>2</gh:sign></extensions></rtept>
+<rtept lat="48.390809" lon="20.020713"><desc>Turn right</desc><extensions><gh:distance>367.658</gh:distance><gh:time>82723</gh:time><gh:sign>2</gh:sign></extensions></rtept>
+<rtept lat="48.390755" lon="20.024561"><desc>Turn right onto Košická cesta</desc><extensions><gh:distance>346.283</gh:distance><gh:time>38226</gh:time><gh:sign>2</gh:sign></extensions></rtept>
+<rtept lat="48.389547" lon="20.028882"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.384127" lon="20.020570"><ele>209.3</ele></trkpt>
+<trkpt lat="48.384171" lon="20.020521"><ele>209.6</ele></trkpt>
+<trkpt lat="48.384245" lon="20.020388"><ele>209.6</ele></trkpt>
+<trkpt lat="48.384665" lon="20.019802"><ele>211.0</ele></trkpt>
+<trkpt lat="48.386350" lon="20.017488"><ele>208.0</ele></trkpt>
+<trkpt lat="48.387004" lon="20.018121"><ele>210.4</ele></trkpt>
+<trkpt lat="48.387056" lon="20.018140"><ele>210.5</ele></trkpt>
+<trkpt lat="48.387220" lon="20.018133"><ele>210.5</ele></trkpt>
+<trkpt lat="48.389497" lon="20.020115"><ele>215.4</ele></trkpt>
+<trkpt lat="48.389774" lon="20.020319"><ele>215.9</ele></trkpt>
+<trkpt lat="48.390355" lon="20.020567"><ele>216.9</ele></trkpt>
+<trkpt lat="48.390809" lon="20.020713"><ele>217.6</ele></trkpt>
+<trkpt lat="48.390760" lon="20.020928"><ele>217.6</ele></trkpt>
+<trkpt lat="48.389885" lon="20.023494"><ele>217.1</ele></trkpt>
+<trkpt lat="48.389871" lon="20.023605"><ele>217.1</ele></trkpt>
+<trkpt lat="48.389888" lon="20.023702"><ele>217.2</ele></trkpt>
+<trkpt lat="48.390142" lon="20.024146"><ele>218.1</ele></trkpt>
+<trkpt lat="48.390295" lon="20.024391"><ele>218.7</ele></trkpt>
+<trkpt lat="48.390412" lon="20.024497"><ele>219.0</ele></trkpt>
+<trkpt lat="48.390483" lon="20.024518"><ele>219.1</ele></trkpt>
+<trkpt lat="48.390619" lon="20.024513"><ele>220.6</ele></trkpt>
+<trkpt lat="48.390755" lon="20.024561"><ele>222.2</ele></trkpt>
+<trkpt lat="48.390012" lon="20.027153"><ele>219.4</ele></trkpt>
+<trkpt lat="48.389839" lon="20.027795"><ele>219.7</ele></trkpt>
+<trkpt lat="48.389630" lon="20.028522"><ele>220.3</ele></trkpt>
+<trkpt lat="48.389547" lon="20.028882"><ele>221.0</ele></trkpt>
+</trkseg></trk>
+</gpx>

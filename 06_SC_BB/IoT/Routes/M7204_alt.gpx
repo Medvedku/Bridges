@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T11:46:14.890Z</time></metadata>
+<rte>
+<rtept lat="48.376583" lon="20.019550"><desc>Continue onto P. Hostinského</desc><extensions><gh:distance>40.729</gh:distance><gh:time>5237</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.376917" lon="20.019779"><desc>Turn left onto P. Dobšinského</desc><extensions><gh:distance>732.005</gh:distance><gh:time>156325</gh:time><gh:sign>-2</gh:sign></extensions></rtept>
+<rtept lat="48.380270" lon="20.011324"><desc>Turn sharp right onto Jánošíkova</desc><extensions><gh:distance>338.411</gh:distance><gh:time>76143</gh:time><gh:sign>3</gh:sign></extensions></rtept>
+<rtept lat="48.382420" lon="20.014549"><desc>At roundabout, take exit 1 onto Malohontská</desc><extensions><gh:distance>396.46</gh:distance><gh:time>44602</gh:time><gh:sign>6</gh:sign></extensions></rtept>
+<rtept lat="48.381138" lon="20.019349"><desc>At roundabout, take exit 1 onto B. Bartóka</desc><extensions><gh:distance>245.695</gh:distance><gh:time>27641</gh:time><gh:sign>6</gh:sign></extensions></rtept>
+<rtept lat="48.381006" lon="20.022626"><desc>Turn right onto P. Hostinského</desc><extensions><gh:distance>360.027</gh:distance><gh:time>46288</gh:time><gh:sign>2</gh:sign></extensions></rtept>
+<rtept lat="48.378067" lon="20.020584"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.376583" lon="20.019550"><ele>201.6</ele></trkpt>
+<trkpt lat="48.376917" lon="20.019779"><ele>201.7</ele></trkpt>
+<trkpt lat="48.377000" lon="20.019587"><ele>201.8</ele></trkpt>
+<trkpt lat="48.377505" lon="20.018818"><ele>202.9</ele></trkpt>
+<trkpt lat="48.377719" lon="20.018489"><ele>203.9</ele></trkpt>
+<trkpt lat="48.377852" lon="20.018235"><ele>204.4</ele></trkpt>
+<trkpt lat="48.378610" lon="20.016313"><ele>204.4</ele></trkpt>
+<trkpt lat="48.378807" lon="20.015701"><ele>204.2</ele></trkpt>
+<trkpt lat="48.380020" lon="20.012053"><ele>204.0</ele></trkpt>
+<trkpt lat="48.380270" lon="20.011324"><ele>202.9</ele></trkpt>
+<trkpt lat="48.380397" lon="20.011511"><ele>202.6</ele></trkpt>
+<trkpt lat="48.380618" lon="20.011836"><ele>202.5</ele></trkpt>
+<trkpt lat="48.381976" lon="20.013988"><ele>205.5</ele></trkpt>
+<trkpt lat="48.382087" lon="20.014128"><ele>205.7</ele></trkpt>
+<trkpt lat="48.382320" lon="20.014360"><ele>206.0</ele></trkpt>
+<trkpt lat="48.382420" lon="20.014549"><ele>206.0</ele></trkpt>
+<trkpt lat="48.382432" lon="20.014633"><ele>205.9</ele></trkpt>
+<trkpt lat="48.382310" lon="20.014895"><ele>205.3</ele></trkpt>
+<trkpt lat="48.382066" lon="20.015361"><ele>205.6</ele></trkpt>
+<trkpt lat="48.381704" lon="20.016087"><ele>205.9</ele></trkpt>
+<trkpt lat="48.381548" lon="20.016435"><ele>206.1</ele></trkpt>
+<trkpt lat="48.381393" lon="20.016847"><ele>206.2</ele></trkpt>
+<trkpt lat="48.381235" lon="20.017406"><ele>207.1</ele></trkpt>
+<trkpt lat="48.381132" lon="20.018217"><ele>208.4</ele></trkpt>
+<trkpt lat="48.381114" lon="20.018685"><ele>208.4</ele></trkpt>
+<trkpt lat="48.381119" lon="20.018988"><ele>208.2</ele></trkpt>
+<trkpt lat="48.381138" lon="20.019349"><ele>207.8</ele></trkpt>
+<trkpt lat="48.381102" lon="20.019394"><ele>207.8</ele></trkpt>
+<trkpt lat="48.381078" lon="20.019454"><ele>207.8</ele></trkpt>
+<trkpt lat="48.381066" lon="20.019523"><ele>207.7</ele></trkpt>
+<trkpt lat="48.381070" lon="20.019593"><ele>207.7</ele></trkpt>
+<trkpt lat="48.381088" lon="20.019659"><ele>207.6</ele></trkpt>
+<trkpt lat="48.381065" lon="20.019852"><ele>207.5</ele></trkpt>
+<trkpt lat="48.381045" lon="20.021619"><ele>207.0</ele></trkpt>
+<trkpt lat="48.381027" lon="20.022403"><ele>206.6</ele></trkpt>
+<trkpt lat="48.381006" lon="20.022626"><ele>206.4</ele></trkpt>
+<trkpt lat="48.380846" lon="20.022533"><ele>206.3</ele></trkpt>
+<trkpt lat="48.380263" lon="20.022130"><ele>206.1</ele></trkpt>
+<trkpt lat="48.378067" lon="20.020584"><ele>202.8</ele></trkpt>
+</trkseg></trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T11:46:24.159Z</time></metadata>
+<rte>
+<rtept lat="48.376582" lon="20.019556"><desc>Continue onto P. Hostinského</desc><extensions><gh:distance>181.717</gh:distance><gh:time>23363</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.378066" lon="20.020584"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.376582" lon="20.019556"><ele>201.6</ele></trkpt>
+<trkpt lat="48.376968" lon="20.019817"><ele>201.8</ele></trkpt>
+<trkpt lat="48.377409" lon="20.020126"><ele>202.0</ele></trkpt>
+<trkpt lat="48.378066" lon="20.020584"><ele>202.7</ele></trkpt>
+</trkseg></trk>
+</gpx>

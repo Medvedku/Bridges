@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T13:14:51.551Z</time></metadata>
+<rte>
+<rtept lat="48.391577" lon="19.991064"><desc>Continue onto 72</desc><extensions><gh:distance>119.58</gh:distance><gh:time>10749</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.390581" lon="19.991653"><desc>Keep right onto 72 and take 531, 16 toward Jesenské, Centrum, Zvolen, Lučenec</desc><extensions><gh:distance>32.934</gh:distance><gh:time>3705</gh:time><gh:sign>7</gh:sign></extensions></rtept>
+<rtept lat="48.390315" lon="19.991844"><desc>At roundabout, take exit 3 onto Cukrovarská</desc><extensions><gh:distance>809.01</gh:distance><gh:time>91013</gh:time><gh:sign>6</gh:sign></extensions></rtept>
+<rtept lat="48.386604" lon="20.000900"><desc>At roundabout, take exit 2 onto Cukrovarská</desc><extensions><gh:distance>107.653</gh:distance><gh:time>12111</gh:time><gh:sign>6</gh:sign></extensions></rtept>
+<rtept lat="48.386105" lon="20.001978"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.391577" lon="19.991064"><ele>219.2</ele></trkpt>
+<trkpt lat="48.391159" lon="19.991272"><ele>219.1</ele></trkpt>
+<trkpt lat="48.390881" lon="19.991400"><ele>219.0</ele></trkpt>
+<trkpt lat="48.390777" lon="19.991473"><ele>218.8</ele></trkpt>
+<trkpt lat="48.390581" lon="19.991653"><ele>218.1</ele></trkpt>
+<trkpt lat="48.390500" lon="19.991688"><ele>218.0</ele></trkpt>
+<trkpt lat="48.390382" lon="19.991801"><ele>217.9</ele></trkpt>
+<trkpt lat="48.390315" lon="19.991844"><ele>217.9</ele></trkpt>
+<trkpt lat="48.390256" lon="19.991876"><ele>218.0</ele></trkpt>
+<trkpt lat="48.390189" lon="19.991852"><ele>218.5</ele></trkpt>
+<trkpt lat="48.390134" lon="19.991854"><ele>218.6</ele></trkpt>
+<trkpt lat="48.390092" lon="19.991873"><ele>218.7</ele></trkpt>
+<trkpt lat="48.390061" lon="19.991900"><ele>218.7</ele></trkpt>
+<trkpt lat="48.390017" lon="19.991974"><ele>218.4</ele></trkpt>
+<trkpt lat="48.389995" lon="19.992044"><ele>218.0</ele></trkpt>
+<trkpt lat="48.389986" lon="19.992114"><ele>217.6</ele></trkpt>
+<trkpt lat="48.389943" lon="19.992298"><ele>216.7</ele></trkpt>
+<trkpt lat="48.389744" lon="19.992954"><ele>213.8</ele></trkpt>
+<trkpt lat="48.389235" lon="19.994515"><ele>208.6</ele></trkpt>
+<trkpt lat="48.388732" lon="19.996167"><ele>205.7</ele></trkpt>
+<trkpt lat="48.388593" lon="19.996659"><ele>205.0</ele></trkpt>
+<trkpt lat="48.388530" lon="19.996865"><ele>205.1</ele></trkpt>
+<trkpt lat="48.388444" lon="19.997187"><ele>205.3</ele></trkpt>
+<trkpt lat="48.388325" lon="19.997495"><ele>205.4</ele></trkpt>
+<trkpt lat="48.388239" lon="19.997755"><ele>205.5</ele></trkpt>
+<trkpt lat="48.387894" lon="19.998592"><ele>205.8</ele></trkpt>
+<trkpt lat="48.387741" lon="19.998944"><ele>205.8</ele></trkpt>
+<trkpt lat="48.387496" lon="19.999605"><ele>205.8</ele></trkpt>
+<trkpt lat="48.387350" lon="19.999934"><ele>205.4</ele></trkpt>
+<trkpt lat="48.386982" lon="20.000594"><ele>205.3</ele></trkpt>
+<trkpt lat="48.386919" lon="20.000637"><ele>205.4</ele></trkpt>
+<trkpt lat="48.386684" lon="20.000874"><ele>205.7</ele></trkpt>
+<trkpt lat="48.386604" lon="20.000900"><ele>205.8</ele></trkpt>
+<trkpt lat="48.386563" lon="20.000885"><ele>205.8</ele></trkpt>
+<trkpt lat="48.386522" lon="20.000888"><ele>205.9</ele></trkpt>
+<trkpt lat="48.386480" lon="20.000910"><ele>205.9</ele></trkpt>
+<trkpt lat="48.386444" lon="20.000950"><ele>205.9</ele></trkpt>
+<trkpt lat="48.386418" lon="20.001005"><ele>206.0</ele></trkpt>
+<trkpt lat="48.386403" lon="20.001073"><ele>206.0</ele></trkpt>
+<trkpt lat="48.386404" lon="20.001144"><ele>206.0</ele></trkpt>
+<trkpt lat="48.386420" lon="20.001212"><ele>206.0</ele></trkpt>
+<trkpt lat="48.386394" lon="20.001373"><ele>206.0</ele></trkpt>
+<trkpt lat="48.386318" lon="20.001607"><ele>206.1</ele></trkpt>
+<trkpt lat="48.386105" lon="20.001978"><ele>206.9</ele></trkpt>
+</trkseg></trk>
+</gpx>

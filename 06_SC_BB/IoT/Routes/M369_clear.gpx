@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T12:55:10.002Z</time></metadata>
+<rte>
+<rtept lat="48.805217" lon="19.567767"><desc>Continue onto 2375</desc><extensions><gh:distance>712.562</gh:distance><gh:time>91616</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.801933" lon="19.575746"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.805217" lon="19.567767"><ele>479.3</ele></trkpt>
+<trkpt lat="48.805247" lon="19.568088"><ele>479.4</ele></trkpt>
+<trkpt lat="48.805252" lon="19.568376"><ele>479.6</ele></trkpt>
+<trkpt lat="48.805248" lon="19.568568"><ele>479.8</ele></trkpt>
+<trkpt lat="48.805161" lon="19.569066"><ele>480.4</ele></trkpt>
+<trkpt lat="48.804972" lon="19.569557"><ele>481.1</ele></trkpt>
+<trkpt lat="48.804500" lon="19.570541"><ele>482.7</ele></trkpt>
+<trkpt lat="48.803953" lon="19.571587"><ele>484.5</ele></trkpt>
+<trkpt lat="48.803793" lon="19.571911"><ele>485.6</ele></trkpt>
+<trkpt lat="48.803591" lon="19.572326"><ele>482.9</ele></trkpt>
+<trkpt lat="48.803515" lon="19.572495"><ele>482.7</ele></trkpt>
+<trkpt lat="48.803369" lon="19.572685"><ele>482.1</ele></trkpt>
+<trkpt lat="48.802993" lon="19.573014"><ele>480.8</ele></trkpt>
+<trkpt lat="48.802890" lon="19.573165"><ele>480.4</ele></trkpt>
+<trkpt lat="48.802783" lon="19.573344"><ele>479.9</ele></trkpt>
+<trkpt lat="48.802680" lon="19.573608"><ele>479.3</ele></trkpt>
+<trkpt lat="48.802437" lon="19.574490"><ele>477.4</ele></trkpt>
+<trkpt lat="48.802252" lon="19.575103"><ele>477.0</ele></trkpt>
+<trkpt lat="48.802167" lon="19.575353"><ele>477.1</ele></trkpt>
+<trkpt lat="48.802105" lon="19.575476"><ele>477.2</ele></trkpt>
+<trkpt lat="48.801933" lon="19.575746"><ele>477.4</ele></trkpt>
+</trkseg></trk>
+</gpx>

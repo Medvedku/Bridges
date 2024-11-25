@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T14:10:07.132Z</time></metadata>
+<rte>
+<rtept lat="48.358390" lon="19.655343"><desc>Continue onto Zvolenská</desc><extensions><gh:distance>2415.156</gh:distance><gh:time>255603</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.337230" lon="19.660705"><desc>At roundabout, take exit 3 onto Zvolenská cesta</desc><extensions><gh:distance>384.118</gh:distance><gh:time>49388</gh:time><gh:sign>6</gh:sign></extensions></rtept>
+<rtept lat="48.334030" lon="19.661290"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.358390" lon="19.655343"><ele>190.8</ele></trkpt>
+<trkpt lat="48.357876" lon="19.656026"><ele>190.9</ele></trkpt>
+<trkpt lat="48.357671" lon="19.656244"><ele>191.0</ele></trkpt>
+<trkpt lat="48.357555" lon="19.656308"><ele>191.0</ele></trkpt>
+<trkpt lat="48.357369" lon="19.656329"><ele>191.1</ele></trkpt>
+<trkpt lat="48.355858" lon="19.656362"><ele>191.6</ele></trkpt>
+<trkpt lat="48.351837" lon="19.656421"><ele>187.0</ele></trkpt>
+<trkpt lat="48.351587" lon="19.656429"><ele>186.9</ele></trkpt>
+<trkpt lat="48.351290" lon="19.656464"><ele>187.2</ele></trkpt>
+<trkpt lat="48.350958" lon="19.656537"><ele>187.8</ele></trkpt>
+<trkpt lat="48.349810" lon="19.656903"><ele>185.8</ele></trkpt>
+<trkpt lat="48.345984" lon="19.658110"><ele>184.6</ele></trkpt>
+<trkpt lat="48.345646" lon="19.658227"><ele>184.9</ele></trkpt>
+<trkpt lat="48.342701" lon="19.659180"><ele>188.5</ele></trkpt>
+<trkpt lat="48.341867" lon="19.659449"><ele>188.4</ele></trkpt>
+<trkpt lat="48.341446" lon="19.659557"><ele>188.9</ele></trkpt>
+<trkpt lat="48.340306" lon="19.659941"><ele>190.0</ele></trkpt>
+<trkpt lat="48.337566" lon="19.660805"><ele>190.6</ele></trkpt>
+<trkpt lat="48.337376" lon="19.660846"><ele>190.7</ele></trkpt>
+<trkpt lat="48.337309" lon="19.660795"><ele>190.9</ele></trkpt>
+<trkpt lat="48.337230" lon="19.660705"><ele>191.1</ele></trkpt>
+<trkpt lat="48.337223" lon="19.660662"><ele>191.1</ele></trkpt>
+<trkpt lat="48.337189" lon="19.660587"><ele>191.3</ele></trkpt>
+<trkpt lat="48.337135" lon="19.660544"><ele>191.4</ele></trkpt>
+<trkpt lat="48.337100" lon="19.660539"><ele>191.4</ele></trkpt>
+<trkpt lat="48.337038" lon="19.660568"><ele>191.4</ele></trkpt>
+<trkpt lat="48.336994" lon="19.660639"><ele>191.4</ele></trkpt>
+<trkpt lat="48.336980" lon="19.660720"><ele>191.4</ele></trkpt>
+<trkpt lat="48.336962" lon="19.660790"><ele>191.3</ele></trkpt>
+<trkpt lat="48.336942" lon="19.660834"><ele>191.3</ele></trkpt>
+<trkpt lat="48.336865" lon="19.660971"><ele>191.1</ele></trkpt>
+<trkpt lat="48.336795" lon="19.661037"><ele>191.1</ele></trkpt>
+<trkpt lat="48.336398" lon="19.661172"><ele>191.1</ele></trkpt>
+<trkpt lat="48.335822" lon="19.661338"><ele>190.9</ele></trkpt>
+<trkpt lat="48.335641" lon="19.661401"><ele>191.2</ele></trkpt>
+<trkpt lat="48.335462" lon="19.661440"><ele>191.5</ele></trkpt>
+<trkpt lat="48.335318" lon="19.661448"><ele>191.7</ele></trkpt>
+<trkpt lat="48.334658" lon="19.661358"><ele>193.2</ele></trkpt>
+<trkpt lat="48.334030" lon="19.661290"><ele>193.9</ele></trkpt>
+</trkseg></trk>
+</gpx>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T12:52:49.371Z</time></metadata>
+<rte>
+<rtept lat="48.545235" lon="18.762794"><desc>Continue onto 2495</desc><extensions><gh:distance>990.785</gh:distance><gh:time>114073</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.540113" lon="18.773351"><desc>Keep left onto 2495</desc><extensions><gh:distance>27.8</gh:distance><gh:time>3574</gh:time><gh:sign>-7</gh:sign></extensions></rtept>
+<rtept lat="48.539885" lon="18.773500"><desc>Turn slight left onto 2495</desc><extensions><gh:distance>347.871</gh:distance><gh:time>44725</gh:time><gh:sign>-1</gh:sign></extensions></rtept>
+<rtept lat="48.539254" lon="18.778118"><desc>Turn right onto Tehelná</desc><extensions><gh:distance>425.732</gh:distance><gh:time>54737</gh:time><gh:sign>2</gh:sign></extensions></rtept>
+<rtept lat="48.535475" lon="18.777419"><desc>Turn slight right onto Priemyselná</desc><extensions><gh:distance>98.682</gh:distance><gh:time>5551</gh:time><gh:sign>1</gh:sign></extensions></rtept>
+<rtept lat="48.534713" lon="18.776732"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.545235" lon="18.762794"><ele>239.7</ele></trkpt>
+<trkpt lat="48.545171" lon="18.762903"><ele>238.9</ele></trkpt>
+<trkpt lat="48.545127" lon="18.762951"><ele>238.8</ele></trkpt>
+<trkpt lat="48.544830" lon="18.763227"><ele>238.0</ele></trkpt>
+<trkpt lat="48.544778" lon="18.763291"><ele>237.8</ele></trkpt>
+<trkpt lat="48.544686" lon="18.763475"><ele>237.5</ele></trkpt>
+<trkpt lat="48.544396" lon="18.764295"><ele>236.4</ele></trkpt>
+<trkpt lat="48.544285" lon="18.764487"><ele>235.8</ele></trkpt>
+<trkpt lat="48.543584" lon="18.765479"><ele>232.6</ele></trkpt>
+<trkpt lat="48.543393" lon="18.765783"><ele>231.6</ele></trkpt>
+<trkpt lat="48.543189" lon="18.766169"><ele>230.5</ele></trkpt>
+<trkpt lat="48.542895" lon="18.766935"><ele>229.0</ele></trkpt>
+<trkpt lat="48.542573" lon="18.767980"><ele>228.3</ele></trkpt>
+<trkpt lat="48.542051" lon="18.769688"><ele>228.7</ele></trkpt>
+<trkpt lat="48.541587" lon="18.771273"><ele>229.0</ele></trkpt>
+<trkpt lat="48.541451" lon="18.771659"><ele>228.7</ele></trkpt>
+<trkpt lat="48.541263" lon="18.772101"><ele>228.3</ele></trkpt>
+<trkpt lat="48.541157" lon="18.772305"><ele>228.1</ele></trkpt>
+<trkpt lat="48.541045" lon="18.772497"><ele>227.9</ele></trkpt>
+<trkpt lat="48.540748" lon="18.772895"><ele>227.9</ele></trkpt>
+<trkpt lat="48.540398" lon="18.773254"><ele>227.8</ele></trkpt>
+<trkpt lat="48.540296" lon="18.773333"><ele>227.8</ele></trkpt>
+<trkpt lat="48.540227" lon="18.773358"><ele>227.8</ele></trkpt>
+<trkpt lat="48.540113" lon="18.773351"><ele>227.7</ele></trkpt>
+<trkpt lat="48.539984" lon="18.773407"><ele>227.8</ele></trkpt>
+<trkpt lat="48.539885" lon="18.773500"><ele>227.9</ele></trkpt>
+<trkpt lat="48.539846" lon="18.773662"><ele>228.3</ele></trkpt>
+<trkpt lat="48.539622" lon="18.774903"><ele>228.7</ele></trkpt>
+<trkpt lat="48.539496" lon="18.775676"><ele>228.9</ele></trkpt>
+<trkpt lat="48.539330" lon="18.777408"><ele>229.5</ele></trkpt>
+<trkpt lat="48.539254" lon="18.778118"><ele>229.4</ele></trkpt>
+<trkpt lat="48.538922" lon="18.778060"><ele>229.2</ele></trkpt>
+<trkpt lat="48.538621" lon="18.778021"><ele>229.0</ele></trkpt>
+<trkpt lat="48.536675" lon="18.777899"><ele>229.7</ele></trkpt>
+<trkpt lat="48.536400" lon="18.777837"><ele>230.0</ele></trkpt>
+<trkpt lat="48.536264" lon="18.777789"><ele>230.1</ele></trkpt>
+<trkpt lat="48.536035" lon="18.777699"><ele>230.0</ele></trkpt>
+<trkpt lat="48.535475" lon="18.777419"><ele>229.7</ele></trkpt>
+<trkpt lat="48.534713" lon="18.776732"><ele>229.5</ele></trkpt>
+</trkseg></trk>
+</gpx>

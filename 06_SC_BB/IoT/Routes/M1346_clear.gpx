@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T14:01:33.015Z</time></metadata>
+<rte>
+<rtept lat="48.582324" lon="19.125942"><desc>Continue onto Jána Kollára</desc><extensions><gh:distance>1230.253</gh:distance><gh:time>139604</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.582933" lon="19.111280"><desc>At roundabout, take exit 3 onto Daniela Ertla</desc><extensions><gh:distance>230.307</gh:distance><gh:time>50560</gh:time><gh:sign>6</gh:sign></extensions></rtept>
+<rtept lat="48.581404" lon="19.109703"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.582324" lon="19.125942"><ele>288.1</ele></trkpt>
+<trkpt lat="48.582366" lon="19.125934"><ele>288.1</ele></trkpt>
+<trkpt lat="48.583065" lon="19.125784"><ele>286.4</ele></trkpt>
+<trkpt lat="48.583186" lon="19.125767"><ele>286.1</ele></trkpt>
+<trkpt lat="48.583318" lon="19.125741"><ele>286.0</ele></trkpt>
+<trkpt lat="48.583403" lon="19.125712"><ele>286.0</ele></trkpt>
+<trkpt lat="48.583511" lon="19.125643"><ele>286.0</ele></trkpt>
+<trkpt lat="48.583612" lon="19.125550"><ele>286.0</ele></trkpt>
+<trkpt lat="48.583702" lon="19.125435"><ele>286.0</ele></trkpt>
+<trkpt lat="48.583780" lon="19.125301"><ele>286.0</ele></trkpt>
+<trkpt lat="48.583827" lon="19.125192"><ele>286.0</ele></trkpt>
+<trkpt lat="48.583894" lon="19.124974"><ele>285.9</ele></trkpt>
+<trkpt lat="48.583926" lon="19.124787"><ele>285.7</ele></trkpt>
+<trkpt lat="48.583937" lon="19.124594"><ele>285.6</ele></trkpt>
+<trkpt lat="48.583925" lon="19.124410"><ele>285.5</ele></trkpt>
+<trkpt lat="48.583896" lon="19.124215"><ele>285.2</ele></trkpt>
+<trkpt lat="48.583750" lon="19.123547"><ele>285.0</ele></trkpt>
+<trkpt lat="48.583488" lon="19.122460"><ele>284.6</ele></trkpt>
+<trkpt lat="48.583277" lon="19.121550"><ele>284.8</ele></trkpt>
+<trkpt lat="48.583187" lon="19.121078"><ele>284.4</ele></trkpt>
+<trkpt lat="48.583065" lon="19.120267"><ele>283.5</ele></trkpt>
+<trkpt lat="48.582838" lon="19.118537"><ele>283.0</ele></trkpt>
+<trkpt lat="48.582799" lon="19.118094"><ele>283.1</ele></trkpt>
+<trkpt lat="48.582731" lon="19.116954"><ele>282.7</ele></trkpt>
+<trkpt lat="48.582678" lon="19.115256"><ele>282.1</ele></trkpt>
+<trkpt lat="48.582680" lon="19.114490"><ele>281.9</ele></trkpt>
+<trkpt lat="48.582686" lon="19.114115"><ele>282.8</ele></trkpt>
+<trkpt lat="48.582689" lon="19.113736"><ele>283.8</ele></trkpt>
+<trkpt lat="48.582799" lon="19.112024"><ele>286.5</ele></trkpt>
+<trkpt lat="48.582825" lon="19.111704"><ele>286.1</ele></trkpt>
+<trkpt lat="48.582933" lon="19.111280"><ele>285.2</ele></trkpt>
+<trkpt lat="48.582963" lon="19.111243"><ele>285.1</ele></trkpt>
+<trkpt lat="48.582994" lon="19.111152"><ele>285.1</ele></trkpt>
+<trkpt lat="48.582996" lon="19.111074"><ele>285.1</ele></trkpt>
+<trkpt lat="48.582986" lon="19.111024"><ele>285.1</ele></trkpt>
+<trkpt lat="48.582941" lon="19.110942"><ele>285.3</ele></trkpt>
+<trkpt lat="48.582884" lon="19.110907"><ele>285.5</ele></trkpt>
+<trkpt lat="48.582823" lon="19.110914"><ele>285.7</ele></trkpt>
+<trkpt lat="48.582767" lon="19.110968"><ele>286.0</ele></trkpt>
+<trkpt lat="48.582593" lon="19.110942"><ele>286.6</ele></trkpt>
+<trkpt lat="48.582471" lon="19.110804"><ele>286.8</ele></trkpt>
+<trkpt lat="48.581404" lon="19.109703"><ele>285.4</ele></trkpt>
+</trkseg></trk>
+</gpx>

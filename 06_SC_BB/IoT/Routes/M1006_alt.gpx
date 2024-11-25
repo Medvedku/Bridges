@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T14:13:36.311Z</time></metadata>
+<rte>
+<rtept lat="48.578454" lon="19.837430"><desc>Continue onto Komenského</desc><extensions><gh:distance>97.99</gh:distance><gh:time>9616</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.577840" lon="19.838321"><desc>Turn left onto SNP</desc><extensions><gh:distance>10.552</gh:distance><gh:time>1055</gh:time><gh:sign>-2</gh:sign></extensions></rtept>
+<rtept lat="48.577844" lon="19.838462"><desc>Turn right onto SNP</desc><extensions><gh:distance>241.678</gh:distance><gh:time>54378</gh:time><gh:sign>2</gh:sign></extensions></rtept>
+<rtept lat="48.575983" lon="19.840137"><desc>Turn slight right onto SNP</desc><extensions><gh:distance>120.109</gh:distance><gh:time>27025</gh:time><gh:sign>1</gh:sign></extensions></rtept>
+<rtept lat="48.574928" lon="19.840339"><desc>Turn right onto Partizánska</desc><extensions><gh:distance>49.288</gh:distance><gh:time>11090</gh:time><gh:sign>2</gh:sign></extensions></rtept>
+<rtept lat="48.574827" lon="19.839689"><desc>Turn left onto Štúrova</desc><extensions><gh:distance>219.177</gh:distance><gh:time>28180</gh:time><gh:sign>-2</gh:sign></extensions></rtept>
+<rtept lat="48.573037" lon="19.840424"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.578454" lon="19.837430"><ele>359.5</ele></trkpt>
+<trkpt lat="48.578168" lon="19.838001"><ele>352.8</ele></trkpt>
+<trkpt lat="48.578061" lon="19.838168"><ele>350.7</ele></trkpt>
+<trkpt lat="48.577955" lon="19.838271"><ele>349.0</ele></trkpt>
+<trkpt lat="48.577891" lon="19.838309"><ele>348.1</ele></trkpt>
+<trkpt lat="48.577840" lon="19.838321"><ele>347.5</ele></trkpt>
+<trkpt lat="48.577844" lon="19.838462"><ele>345.6</ele></trkpt>
+<trkpt lat="48.577622" lon="19.838746"><ele>344.3</ele></trkpt>
+<trkpt lat="48.577203" lon="19.839147"><ele>342.1</ele></trkpt>
+<trkpt lat="48.576259" lon="19.839939"><ele>337.2</ele></trkpt>
+<trkpt lat="48.575983" lon="19.840137"><ele>335.8</ele></trkpt>
+<trkpt lat="48.575875" lon="19.840095"><ele>335.8</ele></trkpt>
+<trkpt lat="48.575746" lon="19.840080"><ele>335.9</ele></trkpt>
+<trkpt lat="48.575636" lon="19.840091"><ele>335.8</ele></trkpt>
+<trkpt lat="48.575328" lon="19.840160"><ele>335.7</ele></trkpt>
+<trkpt lat="48.575027" lon="19.840277"><ele>335.6</ele></trkpt>
+<trkpt lat="48.574928" lon="19.840339"><ele>335.6</ele></trkpt>
+<trkpt lat="48.574905" lon="19.840259"><ele>335.7</ele></trkpt>
+<trkpt lat="48.574885" lon="19.840137"><ele>335.8</ele></trkpt>
+<trkpt lat="48.574827" lon="19.839689"><ele>337.7</ele></trkpt>
+<trkpt lat="48.574436" lon="19.839715"><ele>337.2</ele></trkpt>
+<trkpt lat="48.573640" lon="19.839727"><ele>336.5</ele></trkpt>
+<trkpt lat="48.573594" lon="19.839731"><ele>336.4</ele></trkpt>
+<trkpt lat="48.573535" lon="19.839753"><ele>336.2</ele></trkpt>
+<trkpt lat="48.573475" lon="19.839794"><ele>336.1</ele></trkpt>
+<trkpt lat="48.573421" lon="19.839851"><ele>335.9</ele></trkpt>
+<trkpt lat="48.573125" lon="19.840353"><ele>334.6</ele></trkpt>
+<trkpt lat="48.573074" lon="19.840402"><ele>334.5</ele></trkpt>
+<trkpt lat="48.573037" lon="19.840424"><ele>334.4</ele></trkpt>
+</trkseg></trk>
+</gpx>

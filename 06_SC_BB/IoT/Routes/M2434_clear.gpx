@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-25T12:57:20.473Z</time></metadata>
+<rte>
+<rtept lat="48.325495" lon="19.668336"><desc>Continue onto Vajanského</desc><extensions><gh:distance>43.223</gh:distance><gh:time>4863</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.325831" lon="19.668579"><desc>At roundabout, take exit 2 onto Fiľakovská cesta</desc><extensions><gh:distance>2108.643</gh:distance><gh:time>258291</gh:time><gh:sign>6</gh:sign></extensions></rtept>
+<rtept lat="48.326382" lon="19.695903"><desc>Turn slight right onto 71</desc><extensions><gh:distance>85.791</gh:distance><gh:time>3766</gh:time><gh:sign>1</gh:sign></extensions></rtept>
+<rtept lat="48.325792" lon="19.696645"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.325495" lon="19.668336"><ele>186.5</ele></trkpt>
+<trkpt lat="48.325658" lon="19.668392"><ele>186.5</ele></trkpt>
+<trkpt lat="48.325758" lon="19.668458"><ele>186.1</ele></trkpt>
+<trkpt lat="48.325809" lon="19.668513"><ele>185.9</ele></trkpt>
+<trkpt lat="48.325831" lon="19.668579"><ele>185.7</ele></trkpt>
+<trkpt lat="48.325834" lon="19.668680"><ele>185.5</ele></trkpt>
+<trkpt lat="48.325847" lon="19.668727"><ele>185.4</ele></trkpt>
+<trkpt lat="48.325886" lon="19.668798"><ele>185.2</ele></trkpt>
+<trkpt lat="48.325941" lon="19.668840"><ele>185.0</ele></trkpt>
+<trkpt lat="48.325988" lon="19.668991"><ele>184.7</ele></trkpt>
+<trkpt lat="48.325997" lon="19.669174"><ele>184.4</ele></trkpt>
+<trkpt lat="48.325907" lon="19.669663"><ele>184.2</ele></trkpt>
+<trkpt lat="48.325824" lon="19.670161"><ele>183.7</ele></trkpt>
+<trkpt lat="48.325562" lon="19.671374"><ele>181.6</ele></trkpt>
+<trkpt lat="48.325312" lon="19.672584"><ele>181.5</ele></trkpt>
+<trkpt lat="48.325289" lon="19.672784"><ele>181.4</ele></trkpt>
+<trkpt lat="48.325300" lon="19.672965"><ele>181.4</ele></trkpt>
+<trkpt lat="48.325438" lon="19.673690"><ele>181.4</ele></trkpt>
+<trkpt lat="48.325578" lon="19.674310"><ele>181.3</ele></trkpt>
+<trkpt lat="48.325689" lon="19.674697"><ele>182.0</ele></trkpt>
+<trkpt lat="48.326178" lon="19.676211"><ele>183.9</ele></trkpt>
+<trkpt lat="48.326292" lon="19.676584"><ele>184.0</ele></trkpt>
+<trkpt lat="48.326414" lon="19.676952"><ele>183.2</ele></trkpt>
+<trkpt lat="48.326548" lon="19.677403"><ele>182.4</ele></trkpt>
+<trkpt lat="48.327433" lon="19.681970"><ele>180.0</ele></trkpt>
+<trkpt lat="48.327623" lon="19.682991"><ele>179.5</ele></trkpt>
+<trkpt lat="48.327664" lon="19.683247"><ele>179.5</ele></trkpt>
+<trkpt lat="48.327702" lon="19.683655"><ele>179.1</ele></trkpt>
+<trkpt lat="48.327708" lon="19.684214"><ele>178.6</ele></trkpt>
+<trkpt lat="48.327700" lon="19.685049"><ele>178.9</ele></trkpt>
+<trkpt lat="48.327694" lon="19.685490"><ele>178.7</ele></trkpt>
+<trkpt lat="48.327658" lon="19.688414"><ele>179.1</ele></trkpt>
+<trkpt lat="48.327626" lon="19.689244"><ele>179.5</ele></trkpt>
+<trkpt lat="48.327571" lon="19.690077"><ele>179.6</ele></trkpt>
+<trkpt lat="48.327476" lon="19.690969"><ele>181.0</ele></trkpt>
+<trkpt lat="48.327420" lon="19.691352"><ele>181.0</ele></trkpt>
+<trkpt lat="48.327301" lon="19.692066"><ele>181.1</ele></trkpt>
+<trkpt lat="48.327157" lon="19.692851"><ele>184.3</ele></trkpt>
+<trkpt lat="48.327011" lon="19.693579"><ele>187.3</ele></trkpt>
+<trkpt lat="48.326767" lon="19.694716"><ele>195.2</ele></trkpt>
+<trkpt lat="48.326633" lon="19.695231"><ele>197.4</ele></trkpt>
+<trkpt lat="48.326577" lon="19.695409"><ele>198.2</ele></trkpt>
+<trkpt lat="48.326382" lon="19.695903"><ele>200.6</ele></trkpt>
+<trkpt lat="48.326138" lon="19.696256"><ele>199.7</ele></trkpt>
+<trkpt lat="48.326053" lon="19.696365"><ele>199.4</ele></trkpt>
+<trkpt lat="48.325942" lon="19.696493"><ele>199.1</ele></trkpt>
+<trkpt lat="48.325792" lon="19.696645"><ele>198.8</ele></trkpt>
+</trkseg></trk>
+</gpx>
