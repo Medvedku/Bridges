@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-10T20:36:08.654Z</time></metadata>
+<rte>
+<rtept lat="48.354220" lon="17.416210"><desc>Continue onto 504</desc><extensions><gh:distance>445.658</gh:distance><gh:time>50136</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.354790" lon="17.410537"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.354220" lon="17.416210"><ele>174.7</ele></trkpt>
+<trkpt lat="48.354031" lon="17.415264"><ele>171.3</ele></trkpt>
+<trkpt lat="48.353981" lon="17.414810"><ele>170.5</ele></trkpt>
+<trkpt lat="48.353966" lon="17.414495"><ele>170.3</ele></trkpt>
+<trkpt lat="48.353968" lon="17.414151"><ele>170.1</ele></trkpt>
+<trkpt lat="48.353976" lon="17.413983"><ele>170.1</ele></trkpt>
+<trkpt lat="48.354022" lon="17.413578"><ele>170.1</ele></trkpt>
+<trkpt lat="48.354065" lon="17.413295"><ele>170.3</ele></trkpt>
+<trkpt lat="48.354099" lon="17.413056"><ele>170.4</ele></trkpt>
+<trkpt lat="48.354229" lon="17.412175"><ele>172.7</ele></trkpt>
+<trkpt lat="48.354341" lon="17.411544"><ele>175.6</ele></trkpt>
+<trkpt lat="48.354423" lon="17.411176"><ele>177.2</ele></trkpt>
+<trkpt lat="48.354470" lon="17.411038"><ele>177.9</ele></trkpt>
+<trkpt lat="48.354526" lon="17.410905"><ele>178.5</ele></trkpt>
+<trkpt lat="48.354618" lon="17.410733"><ele>179.4</ele></trkpt>
+<trkpt lat="48.354667" lon="17.410650"><ele>179.5</ele></trkpt>
+<trkpt lat="48.354790" lon="17.410537"><ele>179.7</ele></trkpt>
+</trkseg></trk>
+</gpx>

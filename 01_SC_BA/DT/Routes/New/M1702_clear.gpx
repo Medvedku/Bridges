@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-10T21:11:21.662Z</time></metadata>
+<rte>
+<rtept lat="48.227674" lon="17.290206"><desc>Continue onto Chorvátska</desc><extensions><gh:distance>359.246</gh:distance><gh:time>36403</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="48.228353" lon="17.285470"><desc>Keep left onto Výhon</desc><extensions><gh:distance>1565.176</gh:distance><gh:time>179926</gh:time><gh:sign>-7</gh:sign></extensions></rtept>
+<rtept lat="48.231390" lon="17.267473"><desc>At roundabout, take exit 1 onto 1059</desc><extensions><gh:distance>1433.055</gh:distance><gh:time>159871</gh:time><gh:sign>6</gh:sign></extensions></rtept>
+<rtept lat="48.234684" lon="17.249192"><desc>Turn left onto Pezinská</desc><extensions><gh:distance>6.208</gh:distance><gh:time>621</gh:time><gh:sign>-2</gh:sign></extensions></rtept>
+<rtept lat="48.234649" lon="17.249126"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="48.227674" lon="17.290206"><ele>137.4</ele></trkpt>
+<trkpt lat="48.227710" lon="17.289987"><ele>137.1</ele></trkpt>
+<trkpt lat="48.227830" lon="17.289212"><ele>136.6</ele></trkpt>
+<trkpt lat="48.228082" lon="17.287752"><ele>135.5</ele></trkpt>
+<trkpt lat="48.228191" lon="17.287060"><ele>134.9</ele></trkpt>
+<trkpt lat="48.228238" lon="17.286681"><ele>134.7</ele></trkpt>
+<trkpt lat="48.228353" lon="17.285470"><ele>133.8</ele></trkpt>
+<trkpt lat="48.228278" lon="17.285109"><ele>133.7</ele></trkpt>
+<trkpt lat="48.228215" lon="17.284995"><ele>133.7</ele></trkpt>
+<trkpt lat="48.228185" lon="17.284897"><ele>133.6</ele></trkpt>
+<trkpt lat="48.228134" lon="17.284625"><ele>133.4</ele></trkpt>
+<trkpt lat="48.228107" lon="17.284278"><ele>133.1</ele></trkpt>
+<trkpt lat="48.228106" lon="17.284009"><ele>132.9</ele></trkpt>
+<trkpt lat="48.228112" lon="17.283757"><ele>132.8</ele></trkpt>
+<trkpt lat="48.228254" lon="17.280699"><ele>130.6</ele></trkpt>
+<trkpt lat="48.228267" lon="17.280130"><ele>130.2</ele></trkpt>
+<trkpt lat="48.228269" lon="17.279597"><ele>129.8</ele></trkpt>
+<trkpt lat="48.228264" lon="17.278813"><ele>129.7</ele></trkpt>
+<trkpt lat="48.228323" lon="17.275457"><ele>128.8</ele></trkpt>
+<trkpt lat="48.228333" lon="17.274235"><ele>128.2</ele></trkpt>
+<trkpt lat="48.228326" lon="17.273713"><ele>128.2</ele></trkpt>
+<trkpt lat="48.228343" lon="17.273444"><ele>128.3</ele></trkpt>
+<trkpt lat="48.228373" lon="17.273310"><ele>128.3</ele></trkpt>
+<trkpt lat="48.228423" lon="17.273185"><ele>128.3</ele></trkpt>
+<trkpt lat="48.228500" lon="17.273051"><ele>128.3</ele></trkpt>
+<trkpt lat="48.228539" lon="17.273002"><ele>128.3</ele></trkpt>
+<trkpt lat="48.228610" lon="17.272948"><ele>128.3</ele></trkpt>
+<trkpt lat="48.228741" lon="17.272883"><ele>128.3</ele></trkpt>
+<trkpt lat="48.230636" lon="17.272289"><ele>128.4</ele></trkpt>
+<trkpt lat="48.230819" lon="17.272194"><ele>128.5</ele></trkpt>
+<trkpt lat="48.230865" lon="17.272156"><ele>128.5</ele></trkpt>
+<trkpt lat="48.230938" lon="17.272069"><ele>128.5</ele></trkpt>
+<trkpt lat="48.231008" lon="17.271974"><ele>128.5</ele></trkpt>
+<trkpt lat="48.231085" lon="17.271826"><ele>128.5</ele></trkpt>
+<trkpt lat="48.231125" lon="17.271729"><ele>128.4</ele></trkpt>
+<trkpt lat="48.231168" lon="17.271576"><ele>128.3</ele></trkpt>
+<trkpt lat="48.231204" lon="17.271370"><ele>128.1</ele></trkpt>
+<trkpt lat="48.231217" lon="17.271189"><ele>128.0</ele></trkpt>
+<trkpt lat="48.231262" lon="17.269921"><ele>128.1</ele></trkpt>
+<trkpt lat="48.231317" lon="17.268325"><ele>128.0</ele></trkpt>
+<trkpt lat="48.231319" lon="17.267957"><ele>128.0</ele></trkpt>
+<trkpt lat="48.231390" lon="17.267473"><ele>127.1</ele></trkpt>
+<trkpt lat="48.231433" lon="17.267450"><ele>126.9</ele></trkpt>
+<trkpt lat="48.231468" lon="17.267406"><ele>126.8</ele></trkpt>
+<trkpt lat="48.231492" lon="17.267348"><ele>126.6</ele></trkpt>
+<trkpt lat="48.231501" lon="17.267281"><ele>126.5</ele></trkpt>
+<trkpt lat="48.231495" lon="17.267213"><ele>126.3</ele></trkpt>
+<trkpt lat="48.231475" lon="17.267152"><ele>126.1</ele></trkpt>
+<trkpt lat="48.231441" lon="17.267105"><ele>126.0</ele></trkpt>
+<trkpt lat="48.231400" lon="17.267077"><ele>126.2</ele></trkpt>
+<trkpt lat="48.231369" lon="17.266625"><ele>126.5</ele></trkpt>
+<trkpt lat="48.231394" lon="17.266101"><ele>126.7</ele></trkpt>
+<trkpt lat="48.231412" lon="17.265463"><ele>126.9</ele></trkpt>
+<trkpt lat="48.231404" lon="17.264325"><ele>127.3</ele></trkpt>
+<trkpt lat="48.231397" lon="17.263033"><ele>127.6</ele></trkpt>
+<trkpt lat="48.231416" lon="17.262526"><ele>127.7</ele></trkpt>
+<trkpt lat="48.231468" lon="17.261822"><ele>127.9</ele></trkpt>
+<trkpt lat="48.231498" lon="17.261571"><ele>127.8</ele></trkpt>
+<trkpt lat="48.231565" lon="17.261109"><ele>127.8</ele></trkpt>
+<trkpt lat="48.231655" lon="17.260634"><ele>127.9</ele></trkpt>
+<trkpt lat="48.231797" lon="17.260010"><ele>128.0</ele></trkpt>
+<trkpt lat="48.232491" lon="17.257417"><ele>128.2</ele></trkpt>
+<trkpt lat="48.233297" lon="17.254363"><ele>128.2</ele></trkpt>
+<trkpt lat="48.233663" lon="17.253052"><ele>128.0</ele></trkpt>
+<trkpt lat="48.234423" lon="17.250204"><ele>128.6</ele></trkpt>
+<trkpt lat="48.234684" lon="17.249192"><ele>128.5</ele></trkpt>
+<trkpt lat="48.234649" lon="17.249126"><ele>128.6</ele></trkpt>
+</trkseg></trk>
+</gpx>
