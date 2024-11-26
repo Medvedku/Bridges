@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="GraphHopper" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2024-11-26T14:48:17.471Z</time></metadata>
+<rte>
+<rtept lat="47.893451" lon="17.578427"><desc>Continue onto Krátky Rad</desc><extensions><gh:distance>160.502</gh:distance><gh:time>19482</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="47.892568" lon="17.576746"><desc>At roundabout, take exit 2 onto Námestie Svätej Trojice</desc><extensions><gh:distance>172.569</gh:distance><gh:time>21600</gh:time><gh:sign>6</gh:sign></extensions></rtept>
+<rtept lat="47.891536" lon="17.575186"><desc>Continue onto Dunajská</desc><extensions><gh:distance>2207.484</gh:distance><gh:time>229676</gh:time><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="47.882898" lon="17.549327"><desc>Turn sharp left</desc><extensions><gh:distance>4.031</gh:distance><gh:time>1451</gh:time><gh:sign>-3</gh:sign></extensions></rtept>
+<rtept lat="47.882863" lon="17.549341"><desc>Arrive at destination</desc><extensions><gh:distance>0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk>
+<name>GraphHopper Track</name><desc></desc>
+<trkseg><trkpt lat="47.893451" lon="17.578427"><ele>114.7</ele></trkpt>
+<trkpt lat="47.893342" lon="17.578216"><ele>114.7</ele></trkpt>
+<trkpt lat="47.892732" lon="17.577183"><ele>114.7</ele></trkpt>
+<trkpt lat="47.892632" lon="17.577012"><ele>114.6</ele></trkpt>
+<trkpt lat="47.892568" lon="17.576746"><ele>114.7</ele></trkpt>
+<trkpt lat="47.892592" lon="17.576700"><ele>114.7</ele></trkpt>
+<trkpt lat="47.892598" lon="17.576644"><ele>114.8</ele></trkpt>
+<trkpt lat="47.892574" lon="17.576574"><ele>114.8</ele></trkpt>
+<trkpt lat="47.892494" lon="17.576515"><ele>114.9</ele></trkpt>
+<trkpt lat="47.892407" lon="17.576413"><ele>115.2</ele></trkpt>
+<trkpt lat="47.892347" lon="17.576257"><ele>115.3</ele></trkpt>
+<trkpt lat="47.892281" lon="17.576127"><ele>115.4</ele></trkpt>
+<trkpt lat="47.892151" lon="17.575850"><ele>115.0</ele></trkpt>
+<trkpt lat="47.892028" lon="17.575649"><ele>114.8</ele></trkpt>
+<trkpt lat="47.891846" lon="17.575445"><ele>114.4</ele></trkpt>
+<trkpt lat="47.891536" lon="17.575186"><ele>114.3</ele></trkpt>
+<trkpt lat="47.891061" lon="17.574710"><ele>114.1</ele></trkpt>
+<trkpt lat="47.890785" lon="17.574327"><ele>114.0</ele></trkpt>
+<trkpt lat="47.890385" lon="17.573651"><ele>113.8</ele></trkpt>
+<trkpt lat="47.888251" lon="17.570166"><ele>113.8</ele></trkpt>
+<trkpt lat="47.887147" lon="17.568331"><ele>112.9</ele></trkpt>
+<trkpt lat="47.887007" lon="17.568043"><ele>112.5</ele></trkpt>
+<trkpt lat="47.886943" lon="17.567795"><ele>113.0</ele></trkpt>
+<trkpt lat="47.886182" lon="17.564560"><ele>114.7</ele></trkpt>
+<trkpt lat="47.884756" lon="17.558391"><ele>114.0</ele></trkpt>
+<trkpt lat="47.884660" lon="17.557982"><ele>114.9</ele></trkpt>
+<trkpt lat="47.884573" lon="17.557618"><ele>115.2</ele></trkpt>
+<trkpt lat="47.884488" lon="17.557259"><ele>115.3</ele></trkpt>
+<trkpt lat="47.883624" lon="17.553493"><ele>113.9</ele></trkpt>
+<trkpt lat="47.882980" lon="17.550794"><ele>113.0</ele></trkpt>
+<trkpt lat="47.882913" lon="17.550336"><ele>112.3</ele></trkpt>
+<trkpt lat="47.882889" lon="17.550000"><ele>112.9</ele></trkpt>
+<trkpt lat="47.882885" lon="17.549685"><ele>113.5</ele></trkpt>
+<trkpt lat="47.882898" lon="17.549327"><ele>114.2</ele></trkpt>
+<trkpt lat="47.882863" lon="17.549341"><ele>113.8</ele></trkpt>
+</trkseg></trk>
+</gpx>
