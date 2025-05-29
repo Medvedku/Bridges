@@ -4,10 +4,8 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # === CONFIG ===
-df_path = "df_temp_1_corrected"  # <- use corrected CSVs
-
-# Load data
-df = pd.read_csv(df_path + ".csv")
+df_base_path = r"C:\Users\relia\Documents\GitHub\Bridges\99_Others\PRJ-25\ML\df_2temp_2_corrected"
+df = pd.read_csv(df_base_path + ".csv")
 
 # Get sensor columns (temperature only)
 t_sensor_cols = [col for col in df.columns if col.startswith("T_")]
@@ -19,27 +17,28 @@ default_sensor = t_sensor_cols[0]
 app = dash.Dash(__name__)
 
 app.layout = html.Div([
-    html.H3(f"Interactive Editor for Sensors in {df_path}"),
+    html.H3(f"Interactive Editor for Sensors in {df_base_path}"),
+
     dcc.Dropdown(
         id='sensor-selector',
         options=[{'label': col, 'value': col} for col in t_sensor_cols],
         value=default_sensor
     ),
-    dcc.Graph(id='editable-graph'),
-    html.Div("Click on a point to edit its value."),
+
     html.Div([
+        html.Div("Click on a point to edit its value."),
         html.Label(id='current-y-label', children="New Y value:"),
         dcc.Input(id='new-y', type='number', step=0.01),
-        html.Button("Apply Edit", id='edit-btn')
-    ], style={'margin-top': '10px'}),
-    html.Button("Save All Changes", id="save-btn"),
-    html.Div(id='save-output')
+        html.Button("Apply Edit", id='edit-btn'),
+        html.Button("Save All Changes", id="save-btn"),
+        html.Div(id='save-output')
+    ], style={'margin': '10px 0'}),
+
+    dcc.Graph(id='editable-graph'),
 ])
 
 # Store selected index and column
 selected_index_store = {'index': None, 'sensor': default_sensor}
-
-# Generate figure dynamically
 
 
 def create_figure(sensor_col, selected_index=None):
@@ -63,10 +62,9 @@ def create_figure(sensor_col, selected_index=None):
         xaxis_title='Time',
         yaxis_title='Temperature (C)',
         template='plotly_white',
+        height=600  # adjusted to avoid scroll
     )
     return fig
-
-# Callbacks
 
 
 @app.callback(
@@ -114,8 +112,9 @@ def apply_edit(n_clicks, new_y):
     prevent_initial_call=True
 )
 def save_changes(n_clicks):
-    df.to_csv(df_path + ".csv", index=False)
-    return f"Changes saved to {df_path}.csv"
+    save_path = df_base_path + ".csv"
+    df.to_csv(save_path, index=False)
+    return f"Changes saved to {save_path}"
 
 
 if __name__ == '__main__':
