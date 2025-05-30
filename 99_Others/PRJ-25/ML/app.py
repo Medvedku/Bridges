@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # === CONFIG ===
-df_base_path = r"C:\Users\relia\Documents\GitHub\Bridges\99_Others\PRJ-25\ML\df_2temp_2_corrected"
+df_base_path = r"C:\Users\relia\Documents\GitHub\Bridges\99_Others\PRJ-25\ML\df_2temp_3_corrected"
 df = pd.read_csv(df_base_path + ".csv")
 
 # Get sensor columns (temperature only)
@@ -28,7 +28,12 @@ app.layout = html.Div([
     html.Div([
         html.Div("Click on a point to edit its value."),
         html.Label(id='current-y-label', children="New Y value:"),
-        dcc.Input(id='new-y', type='number', step=0.01),
+        dcc.Input(
+            id='new-y',
+            type='number',
+            step=1,                                # force integer input
+            placeholder="e.g. 2717 → 27.17°C"
+        ),
         html.Button("Apply Edit", id='edit-btn'),
         html.Button("Save All Changes", id="save-btn"),
         html.Div(id='save-output')
@@ -62,7 +67,7 @@ def create_figure(sensor_col, selected_index=None):
         xaxis_title='Time',
         yaxis_title='Temperature (C)',
         template='plotly_white',
-        height=600  # adjusted to avoid scroll
+        height=600
     )
     return fig
 
@@ -87,7 +92,8 @@ def update_label(clickData):
         selected_index_store['index'] = idx
         sensor = selected_index_store['sensor']
         val = df.at[idx, sensor]
-        return f"New Y value (current: {val}):"
+        # show the true current value with two decimals
+        return f"New Y value (current: {val:.2f} × 100):"
     return "New Y value:"
 
 
@@ -101,8 +107,10 @@ def apply_edit(n_clicks, new_y):
         idx = selected_index_store['index']
         sensor = selected_index_store['sensor']
         if idx is not None and sensor is not None:
-            df.at[idx, sensor] = new_y
-            return f"Updated {sensor} at index {idx} to value {new_y}"
+            # divide by 100 to get the real temperature
+            real_val = new_y / 100
+            df.at[idx, sensor] = real_val
+            return f"Updated {sensor} at index {idx} to {real_val:.2f}°C"
     return "No edit applied."
 
 
