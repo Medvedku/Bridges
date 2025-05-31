@@ -1,5 +1,5 @@
 import dash
-from dash import dcc, html, Input, Output, State
+from dash import dcc, html, Input, Output, State, ctx
 import pandas as pd
 import plotly.graph_objects as go
 
@@ -12,6 +12,9 @@ t_sensor_cols = [col for col in df.columns if col.startswith("T_")]
 
 # Initialize first sensor to display
 default_sensor = t_sensor_cols[0]
+
+# Store selected index and column
+selected_index_store = {'index': None, 'sensor': default_sensor}
 
 # === Dash App ===
 app = dash.Dash(__name__)
@@ -41,9 +44,6 @@ app.layout = html.Div([
 
     dcc.Graph(id='editable-graph'),
 ])
-
-# Store selected index and column
-selected_index_store = {'index': None, 'sensor': default_sensor}
 
 
 def create_figure(sensor_col, selected_index=None):
@@ -78,6 +78,8 @@ def create_figure(sensor_col, selected_index=None):
 )
 def update_graph(sensor_col):
     selected_index_store['sensor'] = sensor_col
+    # Reset any previously selected point when changing sensor
+    selected_index_store['index'] = None
     return create_figure(sensor_col)
 
 
@@ -92,22 +94,23 @@ def update_label(clickData):
         selected_index_store['index'] = idx
         sensor = selected_index_store['sensor']
         val = df.at[idx, sensor]
-        # show the true current value with two decimals
         return f"New Y value (current: {val:.2f} × 100):"
     return "New Y value:"
 
 
 @app.callback(
     Output('save-output', 'children'),
-    Input('edit-btn', 'n_clicks'),
+    [Input('edit-btn', 'n_clicks'),
+     Input('new-y', 'n_submit')],
     State('new-y', 'value')
 )
-def apply_edit(n_clicks, new_y):
-    if n_clicks and new_y is not None:
+def apply_edit(n_clicks_btn, n_submit_input, new_y):
+    # Determine what triggered this callback
+    trigger_id = ctx.triggered_id
+    if trigger_id and new_y is not None:
         idx = selected_index_store['index']
         sensor = selected_index_store['sensor']
         if idx is not None and sensor is not None:
-            # divide by 100 to get the real temperature
             real_val = new_y / 100
             df.at[idx, sensor] = real_val
             return f"Updated {sensor} at index {idx} to {real_val:.2f}°C"
